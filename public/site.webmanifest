@@ -1,0 +1,16 @@
+{
+  "name": "CIRRUS",
+  "short_name": "CIRRUS",
+  "description": "Aviation-grade portable oxygen concentrators and CPAP/BiPAP systems. Self-pay only.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eff1ee",
+  "theme_color": "#eff1ee",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
