@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CITIES, getCity, type City } from "@/lib/cities";
+import { CITIES, getCity, stateAbbr, type City } from "@/lib/cities";
 import { PRODUCTS, formatPrice, productAltText, productHref } from "@/lib/products";
 import { ProductThumb } from "@/components/ProductThumb";
 import { breadcrumbJsonLd, faqJsonLd, howToJsonLd } from "@/lib/schema";
@@ -24,7 +24,7 @@ export async function generateMetadata({
   const city = getCity(slug);
   if (!city) return {};
   return {
-    title: `Oxygen & CPAP Shipping to ${city.city}, ${city.state}`,
+    title: `Oxygen & CPAP Shipping to ${city.city}, ${stateAbbr(city.state)}`,
     description: `CIRRUS ships portable oxygen concentrators and CPAP/BiPAP systems to ${city.city}, ${city.state} in 48 hours — cash-pay, no insurance, no local office required.`,
     alternates: { canonical: `/areas-served/${city.slug}` },
   };
