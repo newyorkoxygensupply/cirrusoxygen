@@ -16,6 +16,7 @@ export default function Page() {
       eyebrow="Oxygen"
       title="Portable Oxygen Concentrators"
       intro="Battery-powered concentrators, FAA-approved for in-flight use, from Inogen, Caire, OxyGo, and Drive DeVilbiss — including refurbished units at a discount."
+      pillar={{ label: "Shop the Inogen lineup", href: "/brands/inogen" }}
       base="/oxygen/portable"
       science={[
         {

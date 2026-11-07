@@ -64,6 +64,7 @@ const PATHS: { path: string; priority: number; changeFrequency: "daily" | "weekl
   { path: "guides", priority: 0.5, changeFrequency: "monthly" },
   { path: "faq", priority: 0.5, changeFrequency: "monthly" },
   { path: "editorial-policy", priority: 0.3, changeFrequency: "monthly" },
+  { path: "brands/inogen", priority: 0.7, changeFrequency: "weekly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
