@@ -65,6 +65,11 @@ const PATHS: { path: string; priority: number; changeFrequency: "daily" | "weekl
   { path: "faq", priority: 0.5, changeFrequency: "monthly" },
   { path: "editorial-policy", priority: 0.3, changeFrequency: "monthly" },
   { path: "brands/inogen", priority: 0.7, changeFrequency: "weekly" },
+  { path: "brands/resmed", priority: 0.7, changeFrequency: "weekly" },
+  { path: "brands/philips-respironics", priority: 0.7, changeFrequency: "weekly" },
+  { path: "brands/caire", priority: 0.7, changeFrequency: "weekly" },
+  { path: "brands/oxygo", priority: 0.7, changeFrequency: "weekly" },
+  { path: "brands/drive-devilbiss", priority: 0.7, changeFrequency: "weekly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

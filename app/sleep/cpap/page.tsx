@@ -17,6 +17,7 @@ export default function Page() {
       title="CPAP Machines"
       intro="Continuous positive airway pressure systems for standard sleep apnea therapy — including compact travel CPAPs — from ResMed, Philips, and Fisher & Paykel."
       base="/sleep/cpap"
+      pillar={{ label: "Shop the ResMed lineup", href: "/brands/resmed" }}
       science={[
         {
           eyebrow: "Not one fixed number",

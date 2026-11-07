@@ -17,6 +17,7 @@ export default function Page() {
       title="Stationary Oxygen Concentrators"
       intro="Continuous-flow units built for the bedroom or living room, not the runway — for prescriptions above what a portable unit can deliver."
       base="/oxygen/stationary"
+      pillar={{ label: "Shop Philips Respironics", href: "/brands/philips-respironics" }}
       science={[
         {
           eyebrow: "No waiting on a breath",
