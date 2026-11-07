@@ -27,6 +27,11 @@ const SECURITY_HEADERS = [
 ];
 
 const nextConfig: NextConfig = {
+  // Next's built-in /_next/image optimizer isn't available on Cloudflare
+  // Workers — serve the (already pre-sized) source files directly instead.
+  images: {
+    unoptimized: true,
+  },
   async headers() {
     return [
       {
