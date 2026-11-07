@@ -8,6 +8,22 @@ import { VitalsWaveform } from "@/components/VitalsWaveform";
 // drift from what CIRRUS actually carries.
 const BRANDS = Array.from(new Set(PRODUCTS.map((p) => p.brand))).sort();
 
+// Brands with a dedicated /brands/[slug] hub page — only these render as
+// links in the strip below; every other brand stays plain text so this
+// list can never point at a page that doesn't exist.
+const BRAND_PAGES: Record<string, string> = {
+  Inogen: "inogen",
+  ResMed: "resmed",
+  "Philips Respironics": "philips-respironics",
+  Caire: "caire",
+  OxyGo: "oxygo",
+  "Drive DeVilbiss": "drive-devilbiss",
+  "Fisher & Paykel": "fisher-paykel",
+  Invacare: "invacare",
+  "Hamilton Medical": "hamilton-medical",
+  Dräger: "drager",
+};
+
 export function Footer() {
   return (
     <footer className="border-t border-border">
@@ -88,9 +104,15 @@ export function Footer() {
               Authorized inventory from
             </p>
             <p className="mt-3 flex flex-wrap gap-x-7 gap-y-2 font-mono text-[12px] tracking-[0.03em] text-muted">
-              {BRANDS.map((b) => (
-                <span key={b}>{b}</span>
-              ))}
+              {BRANDS.map((b) =>
+                BRAND_PAGES[b] ? (
+                  <Link key={b} href={`/brands/${BRAND_PAGES[b]}`} className="cursor-pointer hover:text-accent hover:underline">
+                    {b}
+                  </Link>
+                ) : (
+                  <span key={b}>{b}</span>
+                )
+              )}
             </p>
           </div>
 
