@@ -13,6 +13,10 @@ const ALL_BRANDS: { slug: string; name: string }[] = [
   { slug: "caire", name: "Caire" },
   { slug: "oxygo", name: "OxyGo" },
   { slug: "drive-devilbiss", name: "Drive DeVilbiss" },
+  { slug: "fisher-paykel", name: "Fisher & Paykel" },
+  { slug: "invacare", name: "Invacare" },
+  { slug: "hamilton-medical", name: "Hamilton Medical" },
+  { slug: "drager", name: "Dräger" },
 ];
 
 function groupByCategory(brand: string, order: Category[]) {

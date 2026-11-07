@@ -18,6 +18,10 @@ export function GET() {
 - [Caire](${SITE_URL}/brands/caire): FreeStyle Comfort and Eclipse 5 portable concentrators, stationary units, rentals.
 - [OxyGo](${SITE_URL}/brands/oxygo): FIT, FIT+, NEXT, and NEXT NG portable concentrators.
 - [Drive DeVilbiss](${SITE_URL}/brands/drive-devilbiss): iGo2 portable oxygen, 525DS stationary concentrator, IntelliPAP CPAP/bilevel.
+- [Fisher & Paykel](${SITE_URL}/brands/fisher-paykel): SleepStyle Auto CPAP, Vitera and Brevida masks.
+- [Invacare](${SITE_URL}/brands/invacare): Platinum 10 and Perfecto2 V stationary oxygen concentrators.
+- [Hamilton Medical](${SITE_URL}/brands/hamilton-medical): G5, C1/C3/C6, S1, T1, MR1, and HF90 ventilators — institutional/clinical equipment.
+- [Dräger](${SITE_URL}/brands/drager): Evita ICU ventilators, Savina 300, Oxylog transport ventilators, Babylog neonatal ventilators — institutional/clinical equipment.
 
 ## Shop by category
 - [Portable Oxygen Concentrators](${SITE_URL}/oxygen/portable): Battery-powered concentrators from Inogen, Caire, OxyGo, and others, FAA-approved for air travel where noted.

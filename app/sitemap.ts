@@ -70,6 +70,10 @@ const PATHS: { path: string; priority: number; changeFrequency: "daily" | "weekl
   { path: "brands/caire", priority: 0.7, changeFrequency: "weekly" },
   { path: "brands/oxygo", priority: 0.7, changeFrequency: "weekly" },
   { path: "brands/drive-devilbiss", priority: 0.7, changeFrequency: "weekly" },
+  { path: "brands/fisher-paykel", priority: 0.6, changeFrequency: "weekly" },
+  { path: "brands/invacare", priority: 0.6, changeFrequency: "weekly" },
+  { path: "brands/hamilton-medical", priority: 0.5, changeFrequency: "weekly" },
+  { path: "brands/drager", priority: 0.5, changeFrequency: "weekly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
