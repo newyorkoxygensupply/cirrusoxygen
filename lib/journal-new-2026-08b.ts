@@ -7,6 +7,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "pulmonary-rehabilitation-programs-what-to-expect",
     title: "Does pulmonary rehab actually work? What the outcomes data shows beyond the exercise sessions",
+    seoTitle: "Does pulmonary rehab actually work?",
     dek: "Supervised exercise for a lung condition sounds counterintuitive — the outcome data on pulmonary rehab is some of the strongest in COPD management.",
     date: "2026-05-24",
     readTime: "5 min",
@@ -20,6 +21,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "oxygen-concentrator-altitude-performance-derating",
     title: "Why oxygen concentrators produce less at altitude — the physics behind derating",
+    seoTitle: "Why oxygen concentrators produce less at altitude",
     dek: "A concentrator rated for 5 LPM at sea level doesn't deliver the same output in Denver or on a mountain trip — here's the mechanism.",
     date: "2026-05-23",
     readTime: "4 min",
@@ -33,6 +35,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "home-oxygen-fire-safety-statistics-precautions",
     title: "How common are home oxygen fires? What burn-center incident data actually shows",
+    seoTitle: "How common are home oxygen fires?",
     dek: "Oxygen itself isn't flammable, but it dramatically accelerates combustion — the safety data points to specific, preventable ignition sources.",
     date: "2026-05-22",
     readTime: "4 min",
@@ -46,6 +49,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "pursed-lip-breathing-technique-copd-evidence",
     title: "Pursed-lip breathing: the simple technique with measurable effects on COPD breathlessness",
+    seoTitle: "Pursed-lip breathing",
     dek: "This free, immediately usable breathing technique has real physiological backing, not just anecdotal comfort.",
     date: "2026-05-21",
     readTime: "3 min",
@@ -59,6 +63,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "portable-oxygen-concentrator-battery-life-real-world",
     title: "Why your portable oxygen concentrator's real battery runtime is shorter than the box says",
+    seoTitle: "Why your portable oxygen concentrator's real battery",
     dek: "Manufacturer battery ratings are measured under specific lab conditions that most real usage doesn't match.",
     date: "2026-05-20",
     readTime: "4 min",
@@ -74,6 +79,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "eccentric-training-tendon-health-injury-prevention",
     title: "Eccentric exercise for tendon health: the specific protocol with the strongest injury-prevention evidence",
+    seoTitle: "Eccentric exercise for tendon health",
     dek: "Slow, controlled lengthening contractions have a distinct research base for treating and preventing tendon injuries specifically.",
     date: "2026-05-19",
     readTime: "4 min",
@@ -87,6 +93,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "mobility-training-vs-stretching-differences-research",
     title: "Mobility training vs. static stretching: what the research says they each actually accomplish",
+    seoTitle: "Mobility training vs. static stretching",
     dek: "The two get used interchangeably, but they target different physiological adaptations with different evidence behind each.",
     date: "2026-05-18",
     readTime: "4 min",
@@ -100,6 +107,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "post-exercise-protein-vs-carbohydrate-recovery-priority",
     title: "Protein or carbs after exercise — which actually matters more for recovery, according to the research",
+    seoTitle: "Protein or carbs after exercise",
     dek: "Post-workout nutrition advice often defaults to protein, but the evidence on what drives recovery depends heavily on the type of exercise done.",
     date: "2026-05-17",
     readTime: "4 min",
@@ -113,6 +121,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "flexibility-genetics-hypermobility-joint-hygiene",
     title: "Joint hypermobility: when 'flexible' crosses into a condition worth managing differently",
+    seoTitle: "Joint hypermobility",
     dek: "Hypermobility spectrum disorders affect training approach and injury risk in ways that standard fitness advice doesn't account for.",
     date: "2026-05-16",
     readTime: "4 min",
@@ -126,6 +135,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "exercise-snacks-short-activity-bursts-metabolic-research",
     title: "'Exercise snacks': what the research on short, scattered activity bursts actually found",
+    seoTitle: "'Exercise snacks'",
     dek: "Multiple brief bouts of activity throughout the day have been formally studied against one continuous session — the metabolic comparison is specific.",
     date: "2026-05-15",
     readTime: "4 min",
@@ -141,6 +151,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "collagen-supplements-skin-evidence-review",
     title: "Collagen supplements for skin: what the clinical trials actually measured and found",
+    seoTitle: "Collagen supplements for skin",
     dek: "Oral collagen has moved from niche supplement to mainstream skincare claim — the trial evidence is real but narrower than marketing suggests.",
     date: "2026-05-14",
     readTime: "5 min",
@@ -154,6 +165,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "retinoid-skincare-mechanism-evidence-anti-aging",
     title: "Retinoids and skin aging: the one anti-aging ingredient with genuinely strong clinical evidence",
+    seoTitle: "Retinoids and skin aging",
     dek: "Among skincare's crowded anti-aging claims, retinoids stand out for decades of dermatology trial data — here's what they actually do.",
     date: "2026-05-13",
     readTime: "5 min",
@@ -167,6 +179,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "sunscreen-mineral-vs-chemical-differences-evidence",
     title: "Mineral vs. chemical sunscreen: what actually differs, beyond marketing claims",
+    seoTitle: "Mineral vs. chemical sunscreen",
     dek: "Both filter types are effective at UV protection when properly formulated — the real differences are in mechanism, texture, and specific safety questions.",
     date: "2026-05-12",
     readTime: "4 min",
@@ -180,6 +193,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "microneedling-skin-treatment-evidence-safety",
     title: "Microneedling: what the clinical evidence actually supports and where the risks concentrate",
+    seoTitle: "Microneedling",
     dek: "The controlled-injury approach to skin treatment has real trial support for specific uses and specific, well-documented safety considerations.",
     date: "2026-05-11",
     readTime: "4 min",
@@ -193,6 +207,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "vitamin-d-deficiency-testing-supplementation-guidance",
     title: "Vitamin D deficiency: who actually needs testing and what the supplementation research shows",
+    seoTitle: "Vitamin D deficiency",
     dek: "Vitamin D has one of the more contested supplementation evidence bases in nutrition — here's what's settled and what isn't.",
     date: "2026-05-10",
     readTime: "5 min",
@@ -208,6 +223,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "hospital-at-home-programs-outcomes-data",
     title: "Hospital-at-home programs: what the outcome data shows compared to traditional inpatient care",
+    seoTitle: "Hospital-at-home programs",
     dek: "Acute-level care delivered at home, for eligible conditions, has been studied against traditional hospitalization with specific findings.",
     date: "2026-05-09",
     readTime: "5 min",
@@ -221,6 +237,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "prior-authorization-medical-equipment-appeal-process",
     title: "How to actually appeal a prior authorization denial for medical equipment",
+    seoTitle: "How to actually appeal a prior authorization denial",
     dek: "Insurance denials for DME aren't always final — understanding the appeal structure meaningfully improves the odds of reversal.",
     date: "2026-05-08",
     readTime: "5 min",
@@ -234,6 +251,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "medicare-advantage-vs-original-medicare-dme-coverage",
     title: "Medicare Advantage vs. Original Medicare for durable medical equipment: the coverage differences that matter",
+    seoTitle: "Medicare Advantage vs. Original Medicare",
     dek: "Both cover DME, but network restrictions and prior authorization requirements differ enough to change what equipment access actually looks like.",
     date: "2026-05-07",
     readTime: "5 min",
@@ -247,6 +265,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "hipaa-patient-data-rights-what-you-can-request",
     title: "Your HIPAA data rights: what you can actually request from a healthcare provider and how fast",
+    seoTitle: "Your HIPAA data rights",
     dek: "Most patients don't use the access rights HIPAA guarantees — here's what the law actually entitles you to and the timelines providers must meet.",
     date: "2026-05-06",
     readTime: "4 min",
@@ -260,6 +279,7 @@ export const NEW_ARTICLES_2026_08B: Article[] = [
   {
     slug: "second-opinion-major-diagnosis-when-how-to-get-one",
     title: "Getting a second opinion: when it changes outcomes and how to actually arrange one",
+    seoTitle: "Getting a second opinion",
     dek: "Research on second-opinion rates for major diagnoses shows a meaningful diagnostic or treatment-plan change often enough to warrant the request.",
     date: "2026-05-05",
     readTime: "5 min",

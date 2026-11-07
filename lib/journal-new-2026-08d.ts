@@ -9,6 +9,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "bronchiectasis-airway-clearance-explained",
     title: "Bronchiectasis: the airway-clearance disease that isn't COPD or asthma",
+    seoTitle: "Bronchiectasis",
     dek: "Widened, scarred airways stop clearing mucus the way healthy ones do, and the daily routine that controls it looks nothing like a standard COPD regimen.",
     date: "2026-08-09",
     readTime: "5 min",
@@ -23,6 +24,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "severe-asthma-biologics-explained",
     title: "Severe asthma biologics: how the newer injectable drugs actually target the disease",
+    seoTitle: "Severe asthma biologics",
     dek: "For the minority of asthma patients whose disease doesn't respond to inhalers alone, biologic drugs target the specific inflammatory pathway driving their attacks.",
     date: "2026-08-08",
     readTime: "5 min",
@@ -37,6 +39,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "alpha1-antitrypsin-deficiency-underdiagnosed",
     title: "Alpha-1 antitrypsin deficiency: the genetic lung disease that gets mistaken for ordinary COPD",
+    seoTitle: "Alpha-1 antitrypsin deficiency",
     dek: "A single gene mutation leaves the lungs unprotected against their own inflammatory enzymes — and most people who have it are diagnosed years after symptoms start, if at all.",
     date: "2026-08-07",
     readTime: "4 min",
@@ -51,6 +54,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "asthma-copd-overlap-syndrome-explained",
     title: "Asthma-COPD overlap: when a patient doesn't fit cleanly into either diagnosis",
+    seoTitle: "Asthma-COPD overlap",
     dek: "A meaningful share of people with chronic airway disease have features of both conditions at once, and treating it as purely one or the other tends to under-treat the actual disease.",
     date: "2026-08-06",
     readTime: "4 min",
@@ -65,6 +69,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "rsv-vaccine-chronic-lung-disease-guidance",
     title: "RSV vaccination and chronic lung disease: the current guidance on who actually needs it",
+    seoTitle: "RSV vaccination and chronic lung disease",
     dek: "RSV isn't just a pediatric virus — it's a serious respiratory threat for adults with chronic lung disease, and the vaccine eligibility rules have gotten more specific.",
     date: "2026-08-05",
     readTime: "4 min",
@@ -82,6 +87,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "wildfire-smoke-lung-function-long-term-effects",
     title: "Wildfire smoke and lung function: what long-term tracking studies are finding",
+    seoTitle: "Wildfire smoke and lung function",
     dek: "A bad air-quality week used to be treated as a temporary nuisance. Longitudinal research on wildfire-exposed communities suggests the effects don't always end when the smoke clears.",
     date: "2026-08-04",
     readTime: "5 min",
@@ -96,6 +102,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "occupational-lung-disease-workplace-exposure",
     title: "Occupational lung disease: the workplace exposures still causing it, decades after regulation",
+    seoTitle: "Occupational lung disease",
     dek: "Silicosis, asbestosis, and hypersensitivity pneumonitis are often treated as historical diseases. They're not — and newer job categories have added new versions of the same problem.",
     date: "2026-08-03",
     readTime: "5 min",
@@ -110,6 +117,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "lung-transplant-evaluation-criteria-explained",
     title: "Lung transplant evaluation: the criteria that decide who gets listed",
+    seoTitle: "Lung transplant evaluation",
     dek: "Transplant is the last option for end-stage lung disease, and the evaluation process is built to identify who's likely to benefit — which is a narrower group than 'sick enough to need it.'",
     date: "2026-08-02",
     readTime: "5 min",
@@ -124,6 +132,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "pneumococcal-vaccine-adults-updated-guidance",
     title: "Pneumococcal vaccination for adults: the guidance most people are behind on",
+    seoTitle: "Pneumococcal vaccination for adults",
     dek: "The pneumococcal vaccine schedule has changed more than once in recent years, and a shot from a decade ago may not reflect current recommendations.",
     date: "2026-08-01",
     readTime: "4 min",
@@ -138,6 +147,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "transtracheal-oxygen-catheter-alternative",
     title: "Transtracheal oxygen: the catheter alternative to a nasal cannula, and who it's actually for",
+    seoTitle: "Transtracheal oxygen",
     dek: "A small catheter delivers oxygen directly into the trachea instead of through the nose — a niche but genuinely useful option for a specific group of oxygen users.",
     date: "2026-07-31",
     readTime: "4 min",
@@ -152,6 +162,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "home-nebulizer-therapy-oxygen-regimen",
     title: "Home nebulizer therapy: when it's added to an oxygen regimen, and what it treats that a cannula doesn't",
+    seoTitle: "Home nebulizer therapy",
     dek: "A nebulizer and an oxygen concentrator solve different problems — one delivers medication as a fine mist, the other delivers gas. Knowing which is which prevents a common source of confusion.",
     date: "2026-07-30",
     readTime: "4 min",
@@ -168,6 +179,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "mouth-taping-sleep-trend-evidence-review",
     title: "Mouth taping for sleep: what the trial evidence actually shows, not the trend",
+    seoTitle: "Mouth taping for sleep",
     dek: "A viral wellness habit promises better sleep and a more defined jawline. The systematic review of the actual trials tells a much more limited — and in some cases riskier — story.",
     date: "2026-07-29",
     readTime: "4 min",
@@ -182,6 +194,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "sleep-divorce-separate-bedrooms-trend",
     title: "'Sleep divorce': what happens to sleep quality — and the relationship — when couples sleep apart",
+    seoTitle: "'Sleep divorce': what happens to sleep quality",
     dek: "Sleeping in separate rooms has shed its stigma and become a mainstream strategy. The sleep-science case for it is straightforward; the relationship dynamics are more nuanced.",
     date: "2026-07-28",
     readTime: "4 min",
@@ -196,6 +209,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "rem-sleep-behavior-disorder-parkinsons-marker",
     title: "REM sleep behavior disorder: the sleep condition that can precede Parkinson's by years",
+    seoTitle: "REM sleep behavior disorder",
     dek: "Normally the body is paralyzed during REM sleep. When that mechanism fails and people physically act out dreams, it's one of the most specific early warning signs neurology has found.",
     date: "2026-07-27",
     readTime: "5 min",
@@ -210,6 +224,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "tirzepatide-fda-approval-sleep-apnea-treatment",
     title: "Tirzepatide's approval for sleep apnea: what changed, and what it means for treatment order",
+    seoTitle: "Tirzepatide's approval for sleep apnea",
     dek: "A GLP-1/GIP drug is now an FDA-approved treatment for moderate-to-severe obstructive sleep apnea in patients with obesity — a genuine addition to the treatment algorithm, not a replacement for it.",
     date: "2026-07-26",
     readTime: "5 min",
@@ -224,6 +239,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "home-sleep-study-vs-in-lab-polysomnography",
     title: "Home sleep study vs. in-lab polysomnography: which one your symptoms actually call for",
+    seoTitle: "Home sleep study vs. in-lab polysomnography",
     dek: "A home test is cheaper, faster, and more convenient — but it isn't the right tool for every sleep complaint, and knowing the difference saves a repeat test later.",
     date: "2026-07-25",
     readTime: "4 min",
@@ -238,6 +254,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "social-jet-lag-weekend-sleep-schedule",
     title: "Social jet lag: the health cost of a different sleep schedule on weekends",
+    seoTitle: "Social jet lag",
     dek: "Sleeping in on Saturday feels like recovery. The chronobiology research treats the resulting schedule mismatch as a real, measurable form of circadian disruption.",
     date: "2026-07-24",
     readTime: "4 min",
@@ -252,6 +269,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "sleep-apnea-during-pregnancy-risks",
     title: "Sleep apnea during pregnancy: an underdiagnosed risk to both mother and baby",
+    seoTitle: "Sleep apnea during pregnancy",
     dek: "Pregnancy changes breathing mechanics and hormones in ways that can trigger or worsen sleep apnea — and snoring that starts in pregnancy is more often dismissed than investigated.",
     date: "2026-07-23",
     readTime: "5 min",
@@ -266,6 +284,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "weighted-blankets-anxiety-sleep-evidence",
     title: "Weighted blankets: what the evidence actually supports for sleep and anxiety",
+    seoTitle: "Weighted blankets",
     dek: "Deep pressure stimulation has real physiological backing from occupational therapy research. Whether a weighted blanket delivers enough of it to change sleep outcomes is a narrower question.",
     date: "2026-07-22",
     readTime: "4 min",
@@ -280,6 +299,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "alcohol-sleep-architecture-how-it-disrupts",
     title: "Alcohol and sleep: why it knocks you out and then wakes you up",
+    seoTitle: "Alcohol and sleep",
     dek: "A nightcap feels like it helps you fall asleep faster, which it does. What it does to the second half of the night is the part most people miss.",
     date: "2026-07-21",
     readTime: "4 min",
@@ -294,6 +314,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "digital-cbt-i-apps-closing-access-gap",
     title: "Digital CBT-I: closing the access gap for the best insomnia treatment most people never get",
+    seoTitle: "Digital CBT-I",
     dek: "Cognitive behavioral therapy for insomnia outperforms sleep medication in the research, but there aren't nearly enough trained therapists to deliver it in person at scale.",
     date: "2026-07-20",
     readTime: "4 min",
@@ -308,6 +329,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "pediatric-sleep-apnea-surgery-outcomes",
     title: "Pediatric sleep apnea surgery: what happens after the tonsillectomy, and when apnea persists",
+    seoTitle: "Pediatric sleep apnea surgery",
     dek: "Removing enlarged tonsils and adenoids resolves most childhood sleep apnea. It doesn't resolve all of it, and knowing which children need a follow-up sleep study matters.",
     date: "2026-07-19",
     readTime: "4 min",
@@ -324,6 +346,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "rucking-weighted-vest-walking-trend-evidence",
     title: "Rucking and weighted-vest walking: the trend the evidence is starting to catch up to",
+    seoTitle: "Rucking and weighted-vest walking",
     dek: "Loaded walking has military roots and a sudden mainstream following. The research on what it actually adds to plain walking is smaller than the trend, but it's genuinely supportive.",
     date: "2026-07-18",
     readTime: "5 min",
@@ -338,6 +361,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "hybrid-training-strength-cardio-combined",
     title: "Hybrid training: why combining strength and endurance work is replacing the either-or approach",
+    seoTitle: "Hybrid training",
     dek: "The old advice to pick a lane — lifter or runner — has given way to programs that train both qualities deliberately, and the interference-effect concerns turn out to be smaller than assumed.",
     date: "2026-07-17",
     readTime: "5 min",
@@ -352,6 +376,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "plyometrics-bone-health-older-adults",
     title: "Plyometrics for older adults: the case for controlled jumping as a bone-health tool",
+    seoTitle: "Plyometrics for older adults",
     dek: "Jumping exercises sound like the last thing an older adult should do. Under supervision and at the right intensity, the research says otherwise for bone density specifically.",
     date: "2026-07-16",
     readTime: "4 min",
@@ -366,6 +391,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "balance-training-exercises-fall-prevention",
     title: "Balance training: the specific exercises with real fall-prevention evidence behind them",
+    seoTitle: "Balance training",
     dek: "Standing on one foot occasionally isn't a balance training program. The interventions that actually reduce falls in trials are more structured than that.",
     date: "2026-07-15",
     readTime: "4 min",
@@ -380,6 +406,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "afterburn-effect-epoc-myth-explained",
     title: "The afterburn effect: what EPOC actually adds up to, and what it doesn't",
+    seoTitle: "The afterburn effect",
     dek: "Marketing for high-intensity workouts leans hard on the promise of hours of extra calorie burn afterward. The actual research on excess post-exercise oxygen consumption is more modest.",
     date: "2026-07-14",
     readTime: "4 min",
@@ -394,6 +421,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "wim-hof-breathwork-cold-exposure-evidence",
     title: "The Wim Hof method: what's actually been tested in the breathwork-plus-cold protocol",
+    seoTitle: "The Wim Hof method",
     dek: "A specific combination of controlled hyperventilation and cold exposure has drawn genuine scientific study — separate from the broader wellness claims attached to its founder.",
     date: "2026-07-13",
     readTime: "5 min",
@@ -408,6 +436,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "altitude-training-masks-do-they-work",
     title: "Altitude training masks: what they simulate, and what they don't",
+    seoTitle: "Altitude training masks",
     dek: "A resistance mask that makes breathing harder is often marketed as replicating high-altitude training. The physiology behind that claim doesn't hold up.",
     date: "2026-07-12",
     readTime: "4 min",
@@ -422,6 +451,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "swimming-low-impact-cardio-joint-health",
     title: "Swimming as cardio: the joint-health case for the most overlooked modality in the gym",
+    seoTitle: "Swimming as cardio",
     dek: "Water's buoyancy removes most of the load that makes running and many gym exercises hard on aging or injured joints — without giving up meaningful cardiovascular training effect.",
     date: "2026-07-11",
     readTime: "4 min",
@@ -436,6 +466,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "deload-weeks-periodization-why-they-work",
     title: "Deload weeks: why planned undertraining makes the next block of training work",
+    seoTitle: "Deload weeks",
     dek: "Deliberately reducing training volume or intensity for a week feels counterproductive to a lot of dedicated exercisers. The physiology of adaptation says it's often the missing piece.",
     date: "2026-07-10",
     readTime: "4 min",
@@ -450,6 +481,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "cardio-before-or-after-weights-order",
     title: "Cardio before or after weights: does the order actually matter?",
+    seoTitle: "Cardio before or after weights",
     dek: "It's one of the most argued-over questions in a gym, and the research answer depends heavily on which specific goal you're training for.",
     date: "2026-07-09",
     readTime: "4 min",
@@ -464,6 +496,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "delayed-onset-muscle-soreness-doms-explained",
     title: "Delayed onset muscle soreness: what's actually happening, and what doesn't speed recovery",
+    seoTitle: "Delayed onset muscle soreness",
     dek: "The soreness that peaks a day or two after a hard workout has a specific physiological cause, and most of the popular remedies for it haven't held up well in trials.",
     date: "2026-07-08",
     readTime: "4 min",
@@ -480,6 +513,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "cottage-cheese-high-protein-snacking-trend",
     title: "The cottage cheese comeback: what's actually behind the high-protein snacking trend",
+    seoTitle: "The cottage cheese comeback",
     dek: "A dairy product that spent decades as a diet-food punchline is now a viral high-protein staple. The nutrition case behind the trend is more substantive than most food fads.",
     date: "2026-07-07",
     readTime: "4 min",
@@ -494,6 +528,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "creatine-for-women-2026-research",
     title: "Creatine for women: what new trials in perimenopause and menopause actually found",
+    seoTitle: "Creatine for women",
     dek: "Creatine research spent decades focused almost entirely on male athletes. A wave of newer trials specifically in women is filling in a gap that shaped a lot of outdated assumptions.",
     date: "2026-07-06",
     readTime: "5 min",
@@ -511,6 +546,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "seed-oil-controversy-claims-vs-evidence",
     title: "The seed oil controversy: separating the online claims from what the evidence shows",
+    seoTitle: "The seed oil controversy",
     dek: "Seed oils have become one of the most contested topics in online nutrition discourse. The actual research on them is less dramatic — in both directions — than the debate suggests.",
     date: "2026-07-05",
     readTime: "5 min",
@@ -525,6 +561,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "polyphenols-antioxidant-health-claims-explained",
     title: "Polyphenols: what the research actually supports behind the antioxidant marketing",
+    seoTitle: "Polyphenols",
     dek: "Polyphenols show up on packaging for everything from dark chocolate to green tea. The plant compounds are real and biologically active — the sweeping health claims attached to them often outrun the evidence.",
     date: "2026-07-04",
     readTime: "4 min",
@@ -539,6 +576,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "fermented-foods-gut-health-trial-evidence",
     title: "Fermented foods and gut health: what a controlled trial actually found",
+    seoTitle: "Fermented foods and gut health",
     dek: "Fermented foods have long been recommended on plausibility and tradition. A rigorous randomized trial gave the gut-microbiome claim some genuine experimental backing.",
     date: "2026-07-03",
     readTime: "4 min",
@@ -553,6 +591,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "sober-curious-alcohol-free-trend-health-effects",
     title: "The alcohol-free trend: what actually changes in the body when you stop drinking",
+    seoTitle: "The alcohol-free trend",
     dek: "'Sober curious' has grown from a niche movement into a mainstream consumer trend. The physiological changes that follow reduced or eliminated drinking are well documented and start faster than most people expect.",
     date: "2026-07-02",
     readTime: "5 min",
@@ -567,6 +606,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "plant-protein-vs-animal-protein-debate",
     title: "Plant protein vs. animal protein: what the comparison studies actually measure",
+    seoTitle: "Plant protein vs. animal protein",
     dek: "The debate over which protein source is 'better' often conflates several different outcomes — muscle building, cardiovascular risk, and overall diet quality don't all point the same direction.",
     date: "2026-07-01",
     readTime: "5 min",
@@ -581,6 +621,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "sports-nutrition-midlife-women-fueling",
     title: "Sports nutrition for midlife women: why fueling needs differ from the male-normed default",
+    seoTitle: "Sports nutrition for midlife women",
     dek: "Most sports nutrition research and guidance was built on young male athletes. A growing body of research is finally addressing how hormonal shifts change fueling needs for women in midlife.",
     date: "2026-06-30",
     readTime: "5 min",
@@ -595,6 +636,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "unnecessary-micronutrient-testing-panels",
     title: "Micronutrient testing panels: which ones are worth ordering, and which are a wellness upsell",
+    seoTitle: "Micronutrient testing panels",
     dek: "Direct-to-consumer labs now offer sprawling vitamin and mineral panels. A handful of the tests are genuinely useful; most of the rest have limited evidence behind acting on the results.",
     date: "2026-06-29",
     readTime: "4 min",
@@ -609,6 +651,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "time-restricted-eating-shift-workers",
     title: "Time-restricted eating for shift workers: why the standard advice doesn't translate",
+    seoTitle: "Time-restricted eating for shift workers",
     dek: "Most intermittent fasting research assumes a normal daytime schedule. For the roughly one in five workers on rotating or night shifts, that assumption breaks the whole premise.",
     date: "2026-06-28",
     readTime: "4 min",
@@ -623,6 +666,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "added-sugar-guidelines-real-world-intake",
     title: "Added sugar: how far the average diet exceeds the guideline, and what actually changes it",
+    seoTitle: "Added sugar",
     dek: "Federal guidance caps added sugar at a modest share of daily calories. Actual intake runs well past that line for most people, and it's rarely coming from where they'd guess.",
     date: "2026-06-27",
     readTime: "4 min",
@@ -639,6 +683,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "obicetrapib-new-cholesterol-drug-explained",
     title: "Obicetrapib: the new cholesterol drug class reviving an old, once-abandoned mechanism",
+    seoTitle: "Obicetrapib",
     dek: "CETP inhibitors were nearly written off as a drug class after earlier failures. A newer, more selective version is showing genuinely strong LDL reduction in trials.",
     date: "2026-06-26",
     readTime: "5 min",
@@ -653,6 +698,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "inclisiran-twice-yearly-cholesterol-injection",
     title: "Inclisiran: the twice-a-year injection changing how cholesterol gets managed",
+    seoTitle: "Inclisiran",
     dek: "Instead of a daily pill, this newer cholesterol drug works by silencing the gene instruction for LDL production — and needs to be given only twice a year.",
     date: "2026-06-25",
     readTime: "4 min",
@@ -667,6 +713,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "women-heart-attack-symptoms-underrecognized",
     title: "Women's heart attack symptoms: why they still get missed, and what to actually know",
+    seoTitle: "Women's heart attack symptoms",
     dek: "Chest-clutching pain is the textbook heart attack image. Women more often present with symptoms that don't match it, and the mismatch has real consequences for how fast they get treated.",
     date: "2026-06-24",
     readTime: "5 min",
@@ -681,6 +728,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "cardio-oncology-heart-health-cancer-survivors",
     title: "Cardio-oncology: protecting the heart during and after cancer treatment",
+    seoTitle: "Cardio-oncology",
     dek: "Some of the most effective cancer treatments carry real cardiovascular risk. A relatively new medical subspecialty exists specifically to manage that tradeoff.",
     date: "2026-06-23",
     readTime: "5 min",
@@ -695,6 +743,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "familial-hypercholesterolemia-underdiagnosed",
     title: "Familial hypercholesterolemia: the inherited high cholesterol that's underdiagnosed by design",
+    seoTitle: "Familial hypercholesterolemia",
     dek: "A genetic condition causes dangerously high cholesterol from birth, and most people who have it don't know — because a single elevated cholesterol number rarely triggers the right question.",
     date: "2026-06-22",
     readTime: "4 min",
@@ -709,6 +758,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "inoca-microvascular-heart-disease-women",
     title: "INOCA: the heart disease that shows up on a stress test but not an angiogram",
+    seoTitle: "INOCA: the heart disease that shows up on a stress test",
     dek: "Chest pain with a 'clean' angiogram used to mean reassurance and discharge. A growing body of research says that's frequently the wrong conclusion, especially for women.",
     date: "2026-06-21",
     readTime: "5 min",
@@ -723,6 +773,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "statin-muscle-pain-myth-vs-real-intolerance",
     title: "Statin muscle pain: how much of it is the drug, and how much is the nocebo effect",
+    seoTitle: "Statin muscle pain",
     dek: "Muscle aches are the most commonly cited reason people stop taking statins. Blinded trial data suggests a meaningful share of that pain isn't actually being caused by the drug.",
     date: "2026-06-20",
     readTime: "5 min",
@@ -737,6 +788,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "heart-valve-disease-when-murmur-matters",
     title: "Heart valve disease: when a murmur is nothing, and when it needs a cardiologist",
+    seoTitle: "Heart valve disease",
     dek: "A heart murmur shows up in a huge share of routine checkups. Most are harmless — telling the difference from the ones that aren't takes a specific kind of test, not just a stethoscope.",
     date: "2026-06-19",
     readTime: "4 min",
@@ -751,6 +803,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "pcsk9-inhibitors-access-cost-explained",
     title: "PCSK9 inhibitors: powerful cholesterol drugs, and the access problem around them",
+    seoTitle: "PCSK9 inhibitors",
     dek: "This drug class produces dramatic LDL reductions in patients who need them most — and remains one of the harder cardiovascular medications to actually get covered.",
     date: "2026-06-18",
     readTime: "4 min",
@@ -765,6 +818,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "blood-pressure-variability-visit-to-visit-risk",
     title: "Blood pressure variability: why the swings between readings may matter as much as the average",
+    seoTitle: "Blood pressure variability",
     dek: "Two patients with the same average blood pressure can have very different cardiovascular risk if one of them swings wildly between readings and the other stays steady.",
     date: "2026-06-17",
     readTime: "4 min",
@@ -779,6 +833,7 @@ export const NEW_ARTICLES_2026_08D: Article[] = [
   {
     slug: "athletes-heart-exercise-cardiac-remodeling",
     title: "Athlete's heart: how the heart actually adapts to years of endurance training",
+    seoTitle: "Athlete's heart",
     dek: "Years of serious endurance training physically reshape the heart. Most of those changes are healthy adaptation — but the line between adaptation and a warning sign isn't always obvious.",
     date: "2026-06-16",
     readTime: "5 min",

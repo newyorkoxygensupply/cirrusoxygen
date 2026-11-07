@@ -7,6 +7,11 @@ import { NEW_ARTICLES_2026_08E } from "./journal-new-2026-08e";
 export type Article = {
   slug: string;
   title: string;
+  /** Shorter <title>/OG-title override for articles whose full headline runs
+   * past Google's ~60-char SERP truncation window. The on-page H1 always
+   * renders `title` in full — this never changes visible article content,
+   * only the title tag search engines show. Omit when `title` already fits. */
+  seoTitle?: string;
   dek: string;
   date: string;
   readTime: string;
@@ -58,6 +63,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "medicare-portable-oxygen-concentrators-self-pay",
     title: "Does Medicare cover portable oxygen concentrators? The honest answer",
+    seoTitle: "Does Medicare cover portable oxygen concentrators?",
     dek: "Medicare covers home oxygen — as a 36-month equipment rental where the supplier picks the machine. Here's what that means if the machine you want is a portable concentrator.",
     date: "2026-07-08",
     readTime: "5 min",
@@ -77,6 +83,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "oxygen-concentrator-prescription-requirements",
     title: "Do you need a prescription for an oxygen concentrator? Yes — here's how it works",
+    seoTitle: "Do you need a prescription for an oxygen concentrator?",
     dek: "Concentrators are Class II medical devices, so the prescription isn't our policy — it's federal law. What verification actually looks like when you order.",
     date: "2026-06-30",
     readTime: "4 min",
@@ -92,6 +99,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "how-loud-oxygen-concentrator-noise-levels",
     title: "How loud is an oxygen concentrator? Decibel ratings, translated into real rooms",
+    seoTitle: "How loud is an oxygen concentrator?",
     dek: "Spec sheets say 37 to 50 dBA. Here's what those numbers sound like in a bedroom, and why pulse and continuous units sound different in kind, not just degree.",
     date: "2026-06-22",
     readTime: "5 min",
@@ -107,6 +115,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "oxygen-concentrator-maintenance-lifespan",
     title: "Oxygen concentrator maintenance and lifespan: filters, sieve beds, and when replacement beats repair",
+    seoTitle: "Oxygen concentrator maintenance and lifespan",
     dek: "These are low-maintenance machines — but not no-maintenance. The short list of what actually needs doing, and how the machine tells you its sieve beds are aging.",
     date: "2026-06-15",
     readTime: "5 min",
@@ -122,6 +131,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "portable-oxygen-concentrator-battery-life",
     title: "Portable oxygen battery life: what the spec sheet says vs. what your setting does to it",
+    seoTitle: "Portable oxygen battery life",
     dek: "The headline number is measured at the lowest common setting. The variable that actually governs your runtime is the one you can't change: your prescription.",
     date: "2026-06-05",
     readTime: "5 min",
@@ -137,6 +147,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "sleeping-with-portable-oxygen-concentrator",
     title: "Can you sleep with a portable oxygen concentrator? The pulse-dose problem, explained",
+    seoTitle: "Can you sleep with a portable oxygen concentrator?",
     dek: "Pulse-dose machines deliver oxygen when they detect you inhaling. Sleep changes your breathing enough that this is a real question — and the answer is a prescriber decision, not a preference.",
     date: "2026-05-28",
     readTime: "5 min",
@@ -152,6 +163,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "portable-vs-home-oxygen-concentrator",
     title: "Portable vs. home oxygen concentrator: who genuinely needs both",
+    seoTitle: "Portable vs. home oxygen concentrator",
     dek: "One is built to move; the other is built to run all night at higher flows for a third of the price. The two-machine answer is common because the machines are genuinely different tools.",
     date: "2026-05-19",
     readTime: "5 min",
@@ -167,6 +179,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "what-size-oxygen-concentrator-lpm-prescription",
     title: "What size oxygen concentrator do you need? Matching the machine to your LPM prescription",
+    seoTitle: "What size oxygen concentrator do you need?",
     dek: "Pulse setting 2 is not 2 liters per minute. The single most common sizing mistake, and how to read your prescription against a spec sheet.",
     date: "2026-05-11",
     readTime: "5 min",
@@ -182,6 +195,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "are-refurbished-oxygen-concentrators-safe",
     title: "Are refurbished oxygen concentrators safe? What \"refurbished\" has to mean before we'll sell one",
+    seoTitle: "Are refurbished oxygen concentrators safe?",
     dek: "A refurbished concentrator done right is inspected, purity-verified, and hundreds of dollars cheaper. The word does a lot of work — here's what it has to cover.",
     date: "2026-04-30",
     readTime: "5 min",
@@ -197,6 +211,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "renting-vs-buying-oxygen-concentrator",
     title: "Renting vs. buying an oxygen concentrator: the math at 3, 6, and 18 months",
+    seoTitle: "Renting vs. buying an oxygen concentrator",
     dek: "Rental wins for genuinely short needs and loses quietly everywhere else. The one-line formula that settles it, and the questions to ask before signing either way.",
     date: "2026-04-21",
     readTime: "5 min",
@@ -212,6 +227,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "portable-oxygen-concentrator-cost-price-ranges",
     title: "How much does a portable oxygen concentrator cost? Real price ranges, new and refurbished",
+    seoTitle: "How much does a portable oxygen concentrator cost?",
     dek: "From our own catalog, today: portables from $1,995 new and $1,095 refurbished, home units from $649. What actually moves the price between models.",
     date: "2026-04-12",
     readTime: "5 min",
@@ -227,6 +243,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "how-oxygen-concentrators-work-psa-sieve-beds",
     title: "How an oxygen concentrator actually works: sieve beds, PSA, and 96% purity from room air",
+    seoTitle: "How an oxygen concentrator actually works",
     dek: "There's no oxygen stored inside — the machine manufactures it from the room, breath after breath, using a mineral that grabs nitrogen under pressure.",
     date: "2026-04-03",
     readTime: "5 min",
@@ -259,6 +276,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "understanding-oxygen-saturation-spo2",
     title: "Understanding oxygen saturation (SpO2) and when to worry",
+    seoTitle: "Understanding oxygen saturation",
     dek: "Pulse oximeters put a number on your doorstep every morning now. Here's what that number is actually measuring.",
     date: "2026-03-10",
     readTime: "5 min",
@@ -273,6 +291,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "portable-concentrators-vs-oxygen-tanks",
     title: "Portable oxygen concentrators vs. oxygen tanks: how the technology actually differs",
+    seoTitle: "Portable oxygen concentrators vs. oxygen tanks",
     dek: "One manufactures oxygen from room air on demand; the other stores a finite, refillable supply. The tradeoffs aren't just about weight.",
     date: "2026-03-05",
     readTime: "6 min",
@@ -287,6 +306,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "copd-stages-gold-criteria-explained",
     title: "COPD stages explained: the GOLD criteria in plain language",
+    seoTitle: "COPD stages explained",
     dek: "Your pulmonologist may reference a \"GOLD stage.\" Here's what that grading system is actually measuring.",
     date: "2026-02-27",
     readTime: "6 min",
@@ -304,6 +324,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "high-altitude-living-chronic-lung-condition",
     title: "Living at high altitude with a chronic lung condition",
+    seoTitle: "Living at high altitude",
     dek: "Thinner air at elevation changes the oxygen math for everyone. Here's what actually shifts for someone with COPD or a similar diagnosis.",
     date: "2026-02-20",
     readTime: "5 min",
@@ -318,6 +339,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "pulmonary-rehabilitation-what-to-expect",
     title: "Pulmonary rehabilitation: what a typical program actually includes",
+    seoTitle: "Pulmonary rehabilitation",
     dek: "It's not just a treadmill with an oxygen tank attached. Here's the structure behind a real program.",
     date: "2026-02-14",
     readTime: "5 min",
@@ -332,6 +354,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "air-travel-with-copd-oxygen-requirements",
     title: "Air travel with COPD: oxygen requirements and airline policies",
+    seoTitle: "Air travel with COPD",
     dek: "Cabin pressurization isn't sea level. Here's how airlines and physicians actually calculate in-flight oxygen needs.",
     date: "2026-02-08",
     readTime: "6 min",
@@ -346,6 +369,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "home-oxygen-safety-flames-flammability",
     title: "Home oxygen therapy: the safety rules around flames and flammability",
+    seoTitle: "Home oxygen therapy",
     dek: "Oxygen itself doesn't burn — but it changes how everything around it does. Here's the actual mechanism behind the warning labels.",
     date: "2026-02-01",
     readTime: "4 min",
@@ -360,6 +384,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "nocturnal-hypoxemia-why-oxygen-needs-change-sleep",
     title: "Nocturnal hypoxemia: why oxygen needs can change while you sleep",
+    seoTitle: "Nocturnal hypoxemia",
     dek: "Some patients need supplemental oxygen only at night. Here's the physiology behind that split prescription.",
     date: "2026-01-25",
     readTime: "5 min",
@@ -374,6 +399,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "bronchodilators-vs-steroids-copd-inhalers",
     title: "Bronchodilators vs. steroids: how COPD inhalers actually work differently",
+    seoTitle: "Bronchodilators vs. steroids",
     dek: "Two different colored inhalers, two entirely different jobs. Here's the mechanism behind each.",
     date: "2026-01-18",
     readTime: "5 min",
@@ -388,6 +414,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "pulse-dose-vs-continuous-flow-oxygen",
     title: "Pulse dose vs. continuous flow oxygen: which prescriptions call for which",
+    seoTitle: "Pulse dose vs. continuous flow oxygen",
     dek: "The two delivery methods aren't interchangeable, and the difference explains why some patients can't use certain portable units.",
     date: "2026-01-12",
     readTime: "5 min",
@@ -405,6 +432,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-without-insurance-self-pay",
     title: "CPAP without insurance: what coverage actually requires, and what self-pay changes",
+    seoTitle: "CPAP without insurance",
     dek: "Insurance CPAP coverage comes with a usage contract most people discover after signing. The honest comparison with just buying the machine.",
     date: "2026-07-10",
     readTime: "5 min",
@@ -423,6 +451,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-prescription-requirements",
     title: "Do you need a prescription for a CPAP machine? Yes — and here's the part most people miss",
+    seoTitle: "Do you need a prescription for a CPAP machine?",
     dek: "Machines are prescription devices; masks and accessories aren't. How the split works, and what verification looks like at checkout.",
     date: "2026-07-01",
     readTime: "4 min",
@@ -438,6 +467,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "how-to-clean-cpap-equipment-schedule",
     title: "How to clean CPAP equipment: the schedule that matters and the gadgets that don't",
+    seoTitle: "How to clean CPAP equipment",
     dek: "Mild soap, warm water, and a drying rack outperform most of what's marketed at CPAP owners. What the FDA actually says about ozone and UV sanitizers.",
     date: "2026-06-24",
     readTime: "5 min",
@@ -456,6 +486,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "travel-cpap-tsa-airlines-second-machine",
     title: "Traveling with a CPAP: TSA rules, airline logistics, and when a second machine earns its keep",
+    seoTitle: "Traveling with a CPAP",
     dek: "The machine doesn't count against your carry-on, the water rule has an exemption, and the travel-CPAP question is really a frequency question.",
     date: "2026-06-17",
     readTime: "5 min",
@@ -474,6 +505,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-first-30-days-adjustment",
     title: "Your first 30 days on CPAP: what's normal, what's fixable, and when to call",
+    seoTitle: "Your first 30 days on CPAP",
     dek: "Most CPAP abandonment happens in the first month, over problems with names and fixes. A triage guide for the adjustment window.",
     date: "2026-06-08",
     readTime: "6 min",
@@ -489,6 +521,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-machine-cost-price-ranges",
     title: "How much does a CPAP machine cost? Real prices, new, from a real catalog",
+    seoTitle: "How much does a CPAP machine cost?",
     dek: "From our own shelves today: $599 to $949 for proven auto machines, $79 to $199 for masks. What moves the price, and what doesn't.",
     date: "2026-05-30",
     readTime: "5 min",
@@ -504,6 +537,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-vs-bipap-vs-apap-which-machine",
     title: "CPAP vs. APAP vs. BiPAP: which machine your prescription actually points to",
+    seoTitle: "CPAP vs. APAP vs. BiPAP",
     dek: "One pressure, a pressure range, or two pressures. The three-letter alphabet decoded, and why you can't trade up the ladder on your own.",
     date: "2026-05-22",
     readTime: "5 min",
@@ -519,6 +553,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "how-cpap-machines-work-pressure-not-oxygen",
     title: "How a CPAP machine actually works: pressurized air, not oxygen",
+    seoTitle: "How a CPAP machine actually works",
     dek: "The most common misconception in sleep therapy, corrected: a CPAP is an air splint for your airway, and the physics is almost embarrassingly simple.",
     date: "2026-05-14",
     readTime: "5 min",
@@ -534,6 +569,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-pressure-what-auto-titrating-actually-adjusts",
     title: "What an auto-titrating CPAP is actually adjusting, breath by breath",
+    seoTitle: "What an auto-titrating CPAP is actually adjusting",
     dek: "Auto-CPAP isn't just \"CPAP that thinks for you.\" Here's the mechanism behind the marketing term.",
     date: "2026-02-22",
     readTime: "6 min",
@@ -552,6 +588,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "why-your-mask-doesnt-fit-yet",
     title: "Why your mask doesn't fit yet (and it's probably not the size)",
+    seoTitle: "Why your mask doesn't fit yet",
     dek: "Most first-week mask leaks trace back to headgear tension, not cushion size. A quick way to tell the difference.",
     date: "2026-01-30",
     readTime: "4 min",
@@ -595,6 +632,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "ahi-number-explained-mild-moderate-severe",
     title: "The AHI number explained: mild, moderate, and severe sleep apnea",
+    seoTitle: "The AHI number explained",
     dek: "Your sleep study report boils down to one number. Here's what it's actually counting.",
     date: "2026-02-18",
     readTime: "4 min",
@@ -611,6 +649,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-compliance-data-what-your-machine-tracks",
     title: "CPAP compliance data: what your machine is actually tracking",
+    seoTitle: "CPAP compliance data",
     dek: "That SD card or app isn't just for troubleshooting. Here's what insurers, physicians, and the device itself are measuring.",
     date: "2026-02-11",
     readTime: "5 min",
@@ -629,6 +668,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "central-vs-obstructive-sleep-apnea",
     title: "Central vs. obstructive sleep apnea: the difference that changes treatment",
+    seoTitle: "Central vs. obstructive sleep apnea",
     dek: "One is a plumbing problem. The other is a signaling problem. The distinction changes which device actually helps.",
     date: "2026-02-04",
     readTime: "5 min",
@@ -664,6 +704,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "blue-light-and-sleep-how-much-it-matters",
     title: "Blue light and sleep: how much does it really matter?",
+    seoTitle: "Blue light and sleep",
     dek: "It's become shorthand for \"put your phone away.\" The actual mechanism is narrower than the popular version.",
     date: "2026-01-21",
     readTime: "4 min",
@@ -706,6 +747,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "insomnia-vs-sleep-apnea-how-to-tell",
     title: "Insomnia vs. sleep apnea: how to tell the difference",
+    seoTitle: "Insomnia vs. sleep apnea",
     dek: "Both produce daytime exhaustion. The distinguishing symptom is often what's happening at the moment sleep breaks down.",
     date: "2026-01-02",
     readTime: "5 min",
@@ -739,6 +781,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "vo2-max-longevity-marker",
     title: "VO2 max: the longevity marker everyone's suddenly measuring",
+    seoTitle: "VO2 max: the longevity marker everyone's suddenly",
     dek: "A metric that used to live in exercise physiology labs is now on wrist wearables — and increasingly cited by longevity researchers.",
     date: "2026-03-06",
     readTime: "5 min",
@@ -756,6 +799,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "strength-training-after-50",
     title: "Strength training after 50: what changes and what doesn't",
+    seoTitle: "Strength training after 50",
     dek: "The core principles of building strength don't expire at any age. What changes is recovery time and injury margin.",
     date: "2026-02-28",
     readTime: "6 min",
@@ -784,6 +828,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "progressive-overload-one-principle-builds-muscle",
     title: "Progressive overload: the one principle that actually builds muscle",
+    seoTitle: "Progressive overload",
     dek: "Every effective strength program, regardless of style, is built on the same underlying mechanism.",
     date: "2026-02-15",
     readTime: "4 min",
@@ -798,6 +843,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "recovery-days-training-variable-not-day-off",
     title: "Recovery days: why rest is a training variable, not a day off",
+    seoTitle: "Recovery days",
     dek: "The adaptation that makes you stronger doesn't happen during the workout. It happens after.",
     date: "2026-02-09",
     readTime: "4 min",
@@ -829,6 +875,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "walking-10000-steps-where-the-number-came-from",
     title: "Walking 10,000 steps: where the number actually came from",
+    seoTitle: "Walking 10,000 steps",
     dek: "It's cited as if it were a clinical guideline. The origin story is a lot more marketing than medicine.",
     date: "2026-01-27",
     readTime: "4 min",
@@ -843,6 +890,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "mobility-training-flexibility-vs-control",
     title: "Mobility training: the difference between flexibility and control",
+    seoTitle: "Mobility training",
     dek: "Being able to touch your toes and being able to use that range of motion under load are two different capacities.",
     date: "2026-01-20",
     readTime: "4 min",
@@ -857,6 +905,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "nasal-breathing-exercise-trend-explained",
     title: "Breathing technique during exercise: the nasal breathing trend explained",
+    seoTitle: "Breathing technique during exercise",
     dek: "Breathing exclusively through your nose during a workout sounds like a minor detail. The physiological case behind it is more specific than that.",
     date: "2026-01-13",
     readTime: "5 min",
@@ -873,6 +922,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "protein-intake-aging-muscle",
     title: "Protein intake and aging muscle: how much is actually enough",
+    seoTitle: "Protein intake and aging muscle",
     dek: "The standard recommendation was calculated to prevent deficiency, not to optimize muscle retention later in life.",
     date: "2026-03-09",
     readTime: "5 min",
@@ -887,6 +937,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "mediterranean-diet-what-evidence-supports",
     title: "The Mediterranean diet: what the evidence actually supports",
+    seoTitle: "The Mediterranean diet",
     dek: "It's one of the most-studied eating patterns in nutrition science. Here's what's actually well-established versus assumed.",
     date: "2026-03-02",
     readTime: "6 min",
@@ -904,6 +955,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "intermittent-fasting-science-vs-hype",
     title: "Intermittent fasting: separating the science from the hype",
+    seoTitle: "Intermittent fasting",
     dek: "It's one of the most polarizing topics in nutrition. Here's what controlled trials actually show, separate from the anecdotes.",
     date: "2026-02-24",
     readTime: "6 min",
@@ -921,6 +973,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "ultra-processed-foods-what-classification-means",
     title: "Ultra-processed foods: what the classification actually means",
+    seoTitle: "Ultra-processed foods",
     dek: "It's become a catch-all term for \"bad food.\" The actual classification system is more specific than that.",
     date: "2026-02-17",
     readTime: "5 min",
@@ -935,6 +988,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "fiber-gut-microbiome-connection",
     title: "Fiber and the gut microbiome: the connection explained",
+    seoTitle: "Fiber and the gut microbiome",
     dek: "Fiber's benefit isn't just about digestion — a meaningful part of the effect happens through what your gut bacteria do with it.",
     date: "2026-02-10",
     readTime: "5 min",
@@ -963,6 +1017,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "anti-inflammatory-eating-chronic-respiratory-conditions",
     title: "Anti-inflammatory eating patterns for chronic respiratory conditions",
+    seoTitle: "Anti-inflammatory eating patterns",
     dek: "Diet doesn't replace medication for COPD or asthma, but the inflammation connection is more direct than many patients realize.",
     date: "2026-01-26",
     readTime: "5 min",
@@ -977,6 +1032,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "hydration-myths-how-much-water-you-need",
     title: "Hydration myths: how much water do you actually need",
+    seoTitle: "Hydration myths",
     dek: "The \"eight glasses a day\" rule has no clear scientific origin. Here's a more useful way to think about it.",
     date: "2026-01-19",
     readTime: "4 min",
@@ -1021,6 +1077,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "blood-pressure-categories-explained",
     title: "Blood pressure categories explained: what the numbers mean",
+    seoTitle: "Blood pressure categories explained",
     dek: "Two numbers on a cuff reading get compared to a chart most people have never actually seen explained.",
     date: "2026-03-11",
     readTime: "5 min",
@@ -1052,6 +1109,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cholesterol-panels-ldl-hdl-triglycerides",
     title: "Cholesterol panels: LDL, HDL, and triglycerides in plain language",
+    seoTitle: "Cholesterol panels",
     dek: "A standard lipid panel reports several numbers that don't all mean the same thing for your risk.",
     date: "2026-02-26",
     readTime: "6 min",
@@ -1083,6 +1141,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "heart-rate-variability-what-wearables-measure",
     title: "Heart rate variability: what wearables are actually measuring",
+    seoTitle: "Heart rate variability",
     dek: "HRV shows up on nearly every fitness wearable's dashboard now. Here's what the number actually represents.",
     date: "2026-02-12",
     readTime: "5 min",
@@ -1097,6 +1156,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "heart-lung-connection-chronic-respiratory-disease",
     title: "The heart-lung connection in chronic respiratory disease",
+    seoTitle: "The heart-lung connection",
     dek: "COPD and heart disease are frequently discussed separately, but the physiological relationship between them runs both directions.",
     date: "2026-02-05",
     readTime: "5 min",
@@ -1153,6 +1213,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "exercise-intensity-heart-health-finding-the-zone",
     title: "Exercise intensity and heart health: finding the right zone",
+    seoTitle: "Exercise intensity and heart health",
     dek: "More intense isn't automatically better for cardiovascular benefit. The research points to a specific dose-response relationship.",
     date: "2026-01-09",
     readTime: "5 min",
@@ -1169,6 +1230,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "glp1-medications-explained-semaglutide-tirzepatide",
     title: "GLP-1 medications explained: how semaglutide and tirzepatide work",
+    seoTitle: "GLP-1 medications explained",
     dek: "These drugs have reshaped the weight management conversation. Here's the actual mechanism behind the headlines.",
     date: "2026-03-13",
     readTime: "6 min",
@@ -1186,6 +1248,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "weight-loss-sleep-apnea-reinforcing-relationship",
     title: "Weight loss and sleep apnea: the reinforcing relationship",
+    seoTitle: "Weight loss and sleep apnea",
     dek: "Excess weight is a major sleep apnea risk factor, and untreated sleep apnea itself makes weight loss harder. Here's the two-way mechanism.",
     date: "2026-03-01",
     readTime: "5 min",
@@ -1298,6 +1361,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "weight-loss-respiratory-function-obesity",
     title: "Weight loss and respiratory function in obesity-related breathing issues",
+    seoTitle: "Weight loss and respiratory function",
     dek: "Excess weight affects breathing mechanics directly, independent of any separate lung disease. Here's how — and how it can reverse.",
     date: "2026-01-03",
     readTime: "5 min",
@@ -1314,6 +1378,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "pulse-oximeters-how-they-work-accuracy-limits",
     title: "Pulse oximeters: how they work and their real accuracy limits",
+    seoTitle: "Pulse oximeters",
     dek: "A clip-on fingertip device became a household item during the pandemic. Here's what it can and can't reliably tell you.",
     date: "2026-03-07",
     readTime: "5 min",
@@ -1328,6 +1393,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "continuous-glucose-monitors-non-diabetics",
     title: "Continuous glucose monitors for non-diabetics: worth it?",
+    seoTitle: "Continuous glucose monitors for non-diabetics",
     dek: "A device built for diabetes management has become a mainstream wellness product. Here's what the data actually supports for non-diabetic use.",
     date: "2026-02-29",
     readTime: "5 min",
@@ -1342,6 +1408,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "sleep-tracking-rings-vs-wrist-wearables",
     title: "Sleep tracking rings vs. wrist wearables: what's actually measured",
+    seoTitle: "Sleep tracking rings vs. wrist wearables",
     dek: "Both promise sleep insights. The underlying sensors and what they can actually detect differ more than the marketing suggests.",
     date: "2026-02-20",
     readTime: "5 min",
@@ -1356,6 +1423,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "wearable-ecg-features-what-they-can-diagnose",
     title: "Wearable ECG features: what they can and can't diagnose",
+    seoTitle: "Wearable ECG features",
     dek: "A single-lead ECG on your wrist is a genuinely useful screening tool with real, specific limits.",
     date: "2026-02-13",
     readTime: "5 min",
@@ -1384,6 +1452,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "remote-patient-monitoring-copd-chf",
     title: "Remote patient monitoring for COPD and heart failure",
+    seoTitle: "Remote patient monitoring for COPD",
     dek: "Connected devices at home are increasingly part of chronic disease management, not just fitness tracking.",
     date: "2026-01-31",
     readTime: "5 min",
@@ -1398,6 +1467,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "ai-in-medical-imaging-where-its-actually-used",
     title: "AI in medical imaging: where it's actually being used today",
+    seoTitle: "AI in medical imaging",
     dek: "The headlines suggest AI is diagnosing everything already. The current real-world deployment is narrower and more specific.",
     date: "2026-01-24",
     readTime: "6 min",
@@ -1412,6 +1482,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "health-data-privacy-what-wearable-companies-do",
     title: "Health data privacy: what wearable companies do with your data",
+    seoTitle: "Health data privacy",
     dek: "Your sleep, heart rate, and activity data is genuinely valuable — and often not protected the way medical records are.",
     date: "2026-01-14",
     readTime: "5 min",
@@ -1440,6 +1511,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "quantified-self-movement-practical-limits",
     title: "The quantified self movement and its practical limits",
+    seoTitle: "The quantified self movement",
     dek: "Tracking everything sounds like it should produce better health outcomes. The relationship between data volume and behavior change is less direct than that.",
     date: "2026-01-04",
     readTime: "5 min",
@@ -1456,6 +1528,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "lung-cancer-screening-guidelines-low-dose-ct",
     title: "Lung cancer screening guidelines: who qualifies for low-dose CT",
+    seoTitle: "Lung cancer screening guidelines",
     dek: "Screening isn't recommended for everyone. Here's who current guidelines actually cover, and why.",
     date: "2026-03-15",
     readTime: "5 min",
@@ -1490,6 +1563,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "screening-vs-diagnostic-tests-difference",
     title: "The difference between screening and diagnostic tests",
+    seoTitle: "The difference between screening",
     dek: "The two terms get used interchangeably in casual conversation, but the distinction has real implications for insurance coverage and what a result means.",
     date: "2026-02-19",
     readTime: "4 min",
@@ -1504,6 +1578,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "family-history-genetic-counseling",
     title: "Family history and when genetic counseling makes sense",
+    seoTitle: "Family history",
     dek: "Not every family history of cancer warrants genetic testing. Here's the pattern that typically does.",
     date: "2026-02-11",
     readTime: "5 min",
@@ -1518,6 +1593,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "skin-checks-what-dermatologist-looks-for",
     title: "Skin checks: what a dermatologist actually looks for",
+    seoTitle: "Skin checks",
     dek: "The \"ABCDE\" rule gets cited often. Here's what's actually behind each letter, and what dermatologists check beyond it.",
     date: "2026-02-04",
     readTime: "5 min",
@@ -1546,6 +1622,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "smoking-cessation-lung-cancer-risk-timeline",
     title: "Smoking cessation and lung cancer risk reduction timeline",
+    seoTitle: "Smoking cessation",
     dek: "Risk doesn't reset to zero immediately after quitting, but the reduction curve is more encouraging than many assume.",
     date: "2026-01-20",
     readTime: "5 min",
@@ -1604,6 +1681,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "blue-zones-what-longest-lived-populations-share",
     title: "Blue Zones: what the longest-lived populations actually have in common",
+    seoTitle: "Blue Zones",
     dek: "The regions studied for exceptional longevity share several lifestyle patterns — and a few caveats worth knowing about the research itself.",
     date: "2026-03-13",
     readTime: "6 min",
@@ -1618,6 +1696,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cold-exposure-sauna-what-research-shows",
     title: "Cold exposure and sauna: what the research shows so far",
+    seoTitle: "Cold exposure and sauna",
     dek: "Both have surged in popularity as longevity practices. Here's what's actually been studied, separate from anecdote.",
     date: "2026-03-03",
     readTime: "6 min",
@@ -1646,6 +1725,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "sleep-quality-longevity-lever-not-just-comfort",
     title: "Sleep quality as a longevity lever, not just a comfort issue",
+    seoTitle: "Sleep quality as a longevity lever",
     dek: "Poor sleep gets treated as a quality-of-life complaint. The longevity research treats it as a measurable risk factor in its own right.",
     date: "2026-02-16",
     readTime: "5 min",
@@ -1660,6 +1740,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "grip-strength-balance-healthy-aging",
     title: "The role of grip strength and balance in healthy aging",
+    seoTitle: "The role of grip strength and balance",
     dek: "Two simple physical measures turn out to predict a surprising amount about long-term independence.",
     date: "2026-02-08",
     readTime: "5 min",
@@ -1716,6 +1797,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "fasting-mimicking-diets-whats-been-studied",
     title: "Fasting-mimicking diets: what's actually been studied",
+    seoTitle: "Fasting-mimicking diets",
     dek: "A structured, periodic low-calorie diet designed to simulate fasting effects while still eating. Here's the actual evidence behind it.",
     date: "2026-01-09",
     readTime: "5 min",
@@ -1730,6 +1812,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "biological-age-tests-how-they-work-limits",
     title: "Biological age tests: how they work and their limits",
+    seoTitle: "Biological age tests",
     dek: "A test claims to tell you your body is younger or older than your birth certificate. Here's what's actually being measured.",
     date: "2026-01-02",
     readTime: "5 min",
@@ -1760,6 +1843,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "setting-up-home-for-oxygen-therapy",
     title: "Setting up a home for a family member on oxygen therapy",
+    seoTitle: "Setting up a home",
     dek: "A few practical changes make a meaningful difference beyond the equipment itself.",
     date: "2026-03-02",
     readTime: "5 min",
@@ -1774,6 +1858,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "talking-to-new-pulmonologist-questions-worth-asking",
     title: "Talking to a new pulmonologist: questions worth asking",
+    seoTitle: "Talking to a new pulmonologist",
     dek: "A first specialist appointment goes faster than expected. A short prepared list makes it more useful.",
     date: "2026-02-22",
     readTime: "4 min",
@@ -1802,6 +1887,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "traveling-with-loved-one-medical-equipment",
     title: "Traveling with a loved one who uses medical equipment",
+    seoTitle: "Traveling",
     dek: "Trip planning changes meaningfully when portable oxygen, CPAP, or other equipment is part of the itinerary.",
     date: "2026-02-09",
     readTime: "5 min",
@@ -1816,6 +1902,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "emergency-preparedness-oxygen-dependent-patients",
     title: "Emergency preparedness for oxygen-dependent patients",
+    seoTitle: "Emergency preparedness",
     dek: "A power outage or evacuation order is a fundamentally different event for someone dependent on electrically powered equipment.",
     date: "2026-02-01",
     readTime: "5 min",
@@ -1888,6 +1975,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "ventilator-classes-icu-transport-mri-explained",
     title: "ICU, transport, MRI-conditional: how the ventilator market actually segments",
+    seoTitle: "ICU, transport, MRI-conditional",
     dek: "A $12,500 transport unit and a $58,000 MRI-conditional platform aren't competitors — they're different tools. The segmentation, decoded for procurement.",
     date: "2026-07-09",
     readTime: "6 min",
@@ -1903,6 +1991,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "mri-conditional-ventilator-what-it-means",
     title: "What \"MRI-conditional\" actually certifies in a ventilator",
+    seoTitle: "What \"MRI-conditional\" actually certifies",
     dek: "It's a defined labeling term with test conditions attached, not a marketing adjective. What the label covers, and why the conditions are the point.",
     date: "2026-06-29",
     readTime: "5 min",
@@ -1918,6 +2007,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "transport-ventilator-specs-that-matter",
     title: "Transport ventilators: the specs that matter when the wall outlet disappears",
+    seoTitle: "Transport ventilators",
     dek: "Battery autonomy, weight, ruggedness, and gas independence — the four constraints that define the class, and how to read them like an EMS director.",
     date: "2026-06-20",
     readTime: "5 min",
@@ -1933,6 +2023,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "buying-ventilators-authorized-channels",
     title: "Gray-market ventilators are cheap for a reason: authorized channels, explained",
+    seoTitle: "Gray-market ventilators are cheap for a reason",
     dek: "The listing looks identical and costs 40% less. What the discount actually removes — service history, firmware, parts eligibility, and someone to call.",
     date: "2026-06-11",
     readTime: "5 min",
@@ -1948,6 +2039,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "ventilator-fleet-standardization",
     title: "Fleet standardization: why hospitals buy the same ventilator twelve times",
+    seoTitle: "Fleet standardization",
     dek: "The unit price matters less than the twelfth unit's training cost. The compounding logic behind single-platform fleets — and its honest limits.",
     date: "2026-06-02",
     readTime: "5 min",
@@ -1963,6 +2055,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "hospital-vs-home-ventilation-line",
     title: "Hospital ventilators vs. home ventilation: where the line actually sits",
+    seoTitle: "Hospital ventilators vs. home ventilation",
     dek: "A $52,000 ICU platform and a $7,495 home-care ventilator both say \"ventilator\" on the label. The differences are support infrastructure, not marketing.",
     date: "2026-05-24",
     readTime: "5 min",
@@ -1978,6 +2071,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "ventilator-service-contracts-biomed",
     title: "What a ventilator service plan actually covers — and what biomed keeps in-house",
+    seoTitle: "What a ventilator service plan actually covers",
     dek: "Preventive maintenance, life-limited parts, loaners, and software: the four questions that decide whether a service contract earns its line item.",
     date: "2026-05-15",
     readTime: "5 min",
@@ -1993,6 +2087,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "ventilator-consumables-circuits-budgeting",
     title: "Circuits, filters, sensors: budgeting ventilator consumables before the PO",
+    seoTitle: "Circuits, filters, sensors",
     dek: "The purchase order is the visible cost. The recurring one arrives monthly, per machine, forever — and it's decided by which platform you standardize on.",
     date: "2026-05-06",
     readTime: "5 min",
@@ -2008,6 +2103,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "interstitial-lung-disease-pulmonary-fibrosis-oxygen-needs",
     title: "Interstitial lung disease and oxygen needs: how pulmonary fibrosis changes the prescription",
+    seoTitle: "Interstitial lung disease and oxygen needs",
     dek: "ILD doesn't progress like COPD, and neither does its oxygen prescription. Why exertional desaturation shows up before resting hypoxemia does, and what that means for the machine you actually need.",
     date: "2026-07-11",
     readTime: "5 min",
@@ -2022,6 +2118,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "asthma-vs-copd-key-differences",
     title: "Asthma vs. COPD: the differences that actually change treatment",
+    seoTitle: "Asthma vs. COPD",
     dek: "Both narrow the airways. Only one is generally reversible. The distinction most people blur together is the one that determines whether a rescue inhaler alone is enough, or whether oxygen becomes part of the picture at all.",
     date: "2026-07-12",
     readTime: "4 min",
@@ -2036,6 +2133,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "oxygen-conserving-device-technology-explained",
     title: "Oxygen-conserving devices: how pulse-dose delivery stretches a tank's supply",
+    seoTitle: "Oxygen-conserving devices",
     dek: "A continuous-flow tank and a pulse-dose conserving device can deliver the same clinical benefit from wildly different amounts of gas. The mechanism is simpler than it sounds, and understanding it explains most portable equipment decisions.",
     date: "2026-07-13",
     readTime: "5 min",
@@ -2050,6 +2148,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "portable-oxygen-international-travel-customs",
     title: "Flying internationally with a portable oxygen concentrator: customs, voltage, and airline paperwork",
+    seoTitle: "Flying internationally",
     dek: "TSA rules get most of the attention. The parts that actually derail international oxygen travel are customs declarations, foreign voltage, and airline-specific medical clearance forms that need to be filed well before departure.",
     date: "2026-07-14",
     readTime: "5 min",
@@ -2064,6 +2163,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "oxygen-concentrator-troubleshooting-common-issues",
     title: "Oxygen concentrator troubleshooting: the alarms and issues that don't mean it's broken",
+    seoTitle: "Oxygen concentrator troubleshooting",
     dek: "A purity alarm, a low-battery chirp, and an actual malfunction produce different responses — but only if you know which is which. The short list of what to check before assuming the machine needs service.",
     date: "2026-07-15",
     readTime: "5 min",
@@ -2078,6 +2178,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "nasal-cannula-skin-breakdown-prevention",
     title: "Nasal cannula skin breakdown: why it happens and how to actually prevent it",
+    seoTitle: "Nasal cannula skin breakdown",
     dek: "Sore ears and a raw upper lip from a cannula aren't an unavoidable cost of long-term oxygen use. The friction points are predictable, and so are the fixes.",
     date: "2026-07-16",
     readTime: "4 min",
@@ -2092,6 +2193,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "oxygen-humidifier-bottle-when-you-need-one",
     title: "Oxygen humidifier bottles: when you actually need one, and when you don't",
+    seoTitle: "Oxygen humidifier bottles",
     dek: "Humidifier bottles are standard equipment for some prescriptions and unnecessary clutter for others. The flow-rate threshold that actually determines which category you're in.",
     date: "2026-07-17",
     readTime: "4 min",
@@ -2106,6 +2208,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "oxygen-therapy-weaning-protocol-how-it-works",
     title: "Weaning off oxygen therapy: how the process actually works, and who's a candidate",
+    seoTitle: "Weaning off oxygen therapy",
     dek: "Supplemental oxygen isn't automatically permanent. For the right patients — usually those started during an acute illness rather than progressive chronic lung disease — there's a structured path off it.",
     date: "2026-07-18",
     readTime: "5 min",
@@ -2120,6 +2223,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "selling-secondhand-oxygen-concentrator-market",
     title: "The market for used oxygen concentrators: what's worth buying, and what isn't",
+    seoTitle: "The market for used oxygen concentrators",
     dek: "A secondhand concentrator can be a genuine bargain or a false economy, and the difference usually comes down to sieve bed hours and whether it's a manufacturer-refurbished unit or a private resale with no service history.",
     date: "2026-07-19",
     readTime: "5 min",
@@ -2134,6 +2238,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "oxygen-concentrator-power-consumption-backup-planning",
     title: "Oxygen concentrator power consumption: sizing a generator or battery backup that actually works",
+    seoTitle: "Oxygen concentrator power consumption",
     dek: "An oxygen concentrator is not a device you want discovering the hard way that your backup power can't run. The wattage math, and why continuous-flow and portable units have very different backup power needs.",
     date: "2026-07-20",
     readTime: "5 min",
@@ -2148,6 +2253,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-alternatives-oral-appliance-inspire-positional",
     title: "CPAP alternatives: oral appliances, the Inspire implant, and positional therapy compared",
+    seoTitle: "CPAP alternatives",
     dek: "CPAP is the most effective treatment for most sleep apnea, but it isn't the only one. What actually separates candidates for an oral appliance, a surgical implant, or simple positional therapy.",
     date: "2026-07-11",
     readTime: "6 min",
@@ -2163,6 +2269,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-mask-types-full-face-nasal-pillow-compared",
     title: "Full face, nasal, or nasal pillow: choosing a CPAP mask type that actually fits how you sleep",
+    seoTitle: "Full face, nasal, or nasal pillow",
     dek: "Mask type is the single biggest lever on CPAP comfort, and it's frequently chosen by default rather than by the sleep habits that actually determine which one works.",
     date: "2026-07-12",
     readTime: "5 min",
@@ -2178,6 +2285,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-humidifier-chamber-troubleshooting",
     title: "CPAP humidifier chamber problems: mineral buildup, leaks, and the fixes that actually work",
+    seoTitle: "CPAP humidifier chamber problems",
     dek: "White residue in the water chamber, water pooling where it shouldn't, and a humidifier that seems to do nothing at all — the three most common humidifier complaints, and what's actually behind each one.",
     date: "2026-07-13",
     readTime: "4 min",
@@ -2193,6 +2301,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "sharing-cpap-compliance-data-with-doctor-insurance",
     title: "Sharing your CPAP compliance data: what your doctor sees, and what insurance requires",
+    seoTitle: "Sharing your CPAP compliance data",
     dek: "Your machine is already tracking far more than most patients realize. What that data actually shows a clinician, and the specific compliance threshold insurance uses to decide whether it keeps paying.",
     date: "2026-07-14",
     readTime: "5 min",
@@ -2208,6 +2317,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "pediatric-sleep-apnea-signs-parents-should-know",
     title: "Pediatric sleep apnea: the signs parents miss, and when to ask for a sleep study",
+    seoTitle: "Pediatric sleep apnea",
     dek: "Snoring reads as harmless in kids far more often than it should. The behavioral signs that actually point toward pediatric OSA look nothing like adult daytime sleepiness.",
     date: "2026-07-15",
     readTime: "5 min",
@@ -2222,6 +2332,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "sleep-apnea-dementia-cognitive-decline-risk",
     title: "Sleep apnea and cognitive decline: what the research actually shows about the dementia link",
+    seoTitle: "Sleep apnea and cognitive decline",
     dek: "The association between untreated OSA and later cognitive decline is real and increasingly well-documented. What's less settled is how much of it reverses with treatment, and how much reflects damage already done.",
     date: "2026-07-16",
     readTime: "5 min",
@@ -2236,6 +2347,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "restless-legs-syndrome-overview",
     title: "Restless legs syndrome: what it is, and why it's often mistaken for something else",
+    seoTitle: "Restless legs syndrome",
     dek: "RLS is a distinct neurological condition, not a symptom of anxiety or poor sleep hygiene, and it responds to treatments that look nothing like standard sleep advice.",
     date: "2026-07-17",
     readTime: "4 min",
@@ -2250,6 +2362,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "narcolepsy-vs-sleep-apnea-how-to-tell",
     title: "Narcolepsy vs. sleep apnea: two different diagnoses that produce the same daytime exhaustion",
+    seoTitle: "Narcolepsy vs. sleep apnea",
     dek: "Both cause overwhelming daytime sleepiness. The tests that tell them apart, and why treating one when the other is the actual cause leaves the exhaustion unresolved.",
     date: "2026-07-18",
     readTime: "5 min",
@@ -2264,6 +2377,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cpap-tubing-rainout-condensation-fix",
     title: "CPAP rainout: why water collects in your tubing, and the settings that actually stop it",
+    seoTitle: "CPAP rainout",
     dek: "Waking up to water gurgling through the hose has a specific cause — a temperature gradient between heated humidified air and a cooler room — and specific fixes, not just 'turn the humidifier down.'",
     date: "2026-07-19",
     readTime: "4 min",
@@ -2279,6 +2393,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "oral-appliance-therapy-vs-cpap-cost-comparison",
     title: "Oral appliance therapy vs. CPAP: the real cost comparison over a full treatment course",
+    seoTitle: "Oral appliance therapy vs. CPAP",
     dek: "A CPAP machine costs more upfront than most oral appliances. Once ongoing supply replacement and appliance adjustment fees enter the picture, the multi-year total tells a different story.",
     date: "2026-07-20",
     readTime: "5 min",
@@ -2294,6 +2409,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "exercising-with-supplemental-oxygen-therapy",
     title: "Exercising with supplemental oxygen: what changes when you train on prescribed flow",
+    seoTitle: "Exercising with supplemental oxygen",
     dek: "Exercising on oxygen isn't just normal exercise with a cannula attached. What actually changes about pacing, equipment, and monitoring when supplemental oxygen becomes part of the workout.",
     date: "2026-07-21",
     readTime: "5 min",
@@ -2308,6 +2424,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "continuing-pulmonary-rehab-exercises-at-home",
     title: "Continuing pulmonary rehab at home: the exercises that actually carry over",
+    seoTitle: "Continuing pulmonary rehab at home",
     dek: "A structured pulmonary rehab program ends, but the disease doesn't. The specific exercises and habits worth continuing independently, and the ones that genuinely need a supervised setting.",
     date: "2026-07-22",
     readTime: "5 min",
@@ -2322,6 +2439,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "pursed-lip-breathing-technique-how-it-works",
     title: "Pursed-lip breathing: the technique that actually slows air trapping in COPD",
+    seoTitle: "Pursed-lip breathing",
     dek: "Breathing out through pursed lips looks like a small thing. The mechanism behind why it measurably reduces breathlessness in COPD is more specific than 'it's calming.'",
     date: "2026-07-23",
     readTime: "4 min",
@@ -2336,6 +2454,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "diaphragmatic-breathing-technique-guide",
     title: "Diaphragmatic breathing: retraining the muscle most people stop using correctly",
+    seoTitle: "Diaphragmatic breathing",
     dek: "Chronic lung disease and general poor breathing habits both push people toward shallow chest breathing. Retraining the diaphragm is a specific, learnable skill, not a vague relaxation exercise.",
     date: "2026-07-24",
     readTime: "4 min",
@@ -2350,6 +2469,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "water-aerobics-swimming-copd-benefits",
     title: "Water aerobics and swimming for COPD: why the humidity helps and what to watch for",
+    seoTitle: "Water aerobics and swimming for COPD",
     dek: "Pool-based exercise offers a specific respiratory advantage for many COPD patients that dry-land exercise doesn't. What makes it work, and the precautions that actually matter.",
     date: "2026-07-25",
     readTime: "4 min",
@@ -2364,6 +2484,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "exercise-induced-bronchospasm-explained",
     title: "Exercise-induced bronchospasm: why some lungs react to exertion, and how it's managed",
+    seoTitle: "Exercise-induced bronchospasm",
     dek: "A cough or tightness that shows up specifically during or after exercise, in people who otherwise breathe fine, points toward a distinct and well-understood condition with a straightforward management approach.",
     date: "2026-07-26",
     readTime: "4 min",
@@ -2378,6 +2499,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "six-minute-walk-test-what-it-measures",
     title: "The six-minute walk test: what it actually measures, and why pulmonologists keep ordering it",
+    seoTitle: "The six-minute walk test",
     dek: "A simple hallway walk timed for six minutes produces a surprisingly durable, clinically meaningful number. What it's actually capturing that a treadmill stress test or spirometry alone doesn't.",
     date: "2026-07-27",
     readTime: "4 min",
@@ -2392,6 +2514,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "incentive-spirometer-proper-use-guide",
     title: "Incentive spirometers: the proper technique, and why the number on the ball matters",
+    seoTitle: "Incentive spirometers",
     dek: "Handed out after nearly every hospital surgery, incentive spirometers are frequently used incorrectly in ways that quietly defeat their purpose. The technique that actually makes them effective.",
     date: "2026-07-28",
     readTime: "4 min",
@@ -2406,6 +2529,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "energy-conservation-pacing-techniques-copd",
     title: "Energy conservation and pacing: the techniques that actually reduce breathlessness",
+    seoTitle: "Energy conservation and pacing",
     dek: "Pacing isn't just doing less. It's a specific, learnable set of techniques for spreading effort across a day so breathlessness doesn't compound task after task.",
     date: "2026-07-29",
     readTime: "5 min",
@@ -2420,6 +2544,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "chair-based-exercise-limited-mobility-guide",
     title: "Chair-based exercise: a real program for limited mobility, not a warm-up",
+    seoTitle: "Chair-based exercise",
     dek: "Seated exercise gets treated as a lesser substitute for real training. For patients with genuine mobility limits, a properly structured chair-based program delivers real cardiovascular and strength benefit.",
     date: "2026-07-30",
     readTime: "4 min",
@@ -2434,6 +2559,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "omega-3-fatty-acids-lung-inflammation",
     title: "Omega-3 fatty acids and lung inflammation: what the evidence actually supports",
+    seoTitle: "Omega-3 fatty acids and lung inflammation",
     dek: "Omega-3s get credited with broad anti-inflammatory benefits across nearly every condition. What the research specific to respiratory inflammation actually shows, separated from the general supplement marketing.",
     date: "2026-07-21",
     readTime: "4 min",
@@ -2448,6 +2574,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "vitamin-d-respiratory-infection-risk",
     title: "Vitamin D and respiratory infection risk: what the research actually shows",
+    seoTitle: "Vitamin D and respiratory infection risk",
     dek: "Vitamin D deficiency correlates with more respiratory infections. Whether supplementing actually reduces that risk is a more specific, more debated question than the correlation alone suggests.",
     date: "2026-07-22",
     readTime: "4 min",
@@ -2462,6 +2589,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "meal-prep-limited-mobility-patients-guide",
     title: "Meal prep for limited mobility: a system that doesn't assume a full kitchen day",
+    seoTitle: "Meal prep for limited mobility",
     dek: "Standard meal-prep advice assumes standing at a counter for hours. A genuinely workable system for limited energy or mobility looks different in nearly every step.",
     date: "2026-07-23",
     readTime: "5 min",
@@ -2476,6 +2604,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "diuretics-potassium-diet-interactions",
     title: "Diuretics and diet: the potassium interactions worth understanding",
+    seoTitle: "Diuretics and diet",
     dek: "Not all diuretics affect potassium the same way, and the dietary advice that's right for one type is wrong for another. The distinction that actually matters for anyone on this medication class.",
     date: "2026-07-24",
     readTime: "4 min",
@@ -2490,6 +2619,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "small-frequent-meals-copd-breathing",
     title: "Small, frequent meals and COPD: why a full stomach makes breathing harder",
+    seoTitle: "Small, frequent meals and COPD",
     dek: "Large meals genuinely compete with breathing mechanics in advanced COPD. The mechanical reason why, and the practical meal structure that actually helps.",
     date: "2026-07-25",
     readTime: "4 min",
@@ -2504,6 +2634,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "weight-loss-diet-during-oxygen-therapy",
     title: "Losing weight on oxygen therapy: the diet considerations that actually apply",
+    seoTitle: "Losing weight on oxygen therapy",
     dek: "Being on supplemental oxygen doesn't change the basic physics of weight loss, but it does change some of the practical considerations around how to pursue it safely.",
     date: "2026-07-26",
     readTime: "4 min",
@@ -2518,6 +2649,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "caffeine-heart-medication-interactions",
     title: "Caffeine and heart medications: the interactions worth asking your doctor about",
+    seoTitle: "Caffeine and heart medications",
     dek: "Caffeine's interaction with cardiac medications is more specific and more medication-dependent than the general advice to 'cut back on caffeine' suggests.",
     date: "2026-07-27",
     readTime: "4 min",
@@ -2532,6 +2664,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "magnesium-muscle-sleep-connection",
     title: "Magnesium: what it actually does for muscle cramps and sleep, and what's overstated",
+    seoTitle: "Magnesium",
     dek: "Magnesium supplements get marketed as a fix for nearly everything sleep- and muscle-related. What the evidence actually supports, separated from the broader supplement-aisle claims.",
     date: "2026-07-28",
     readTime: "4 min",
@@ -2546,6 +2679,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "plant-based-diet-older-adults-considerations",
     title: "Plant-based eating for older adults: the nutrients that need deliberate attention",
+    seoTitle: "Plant-based eating for older adults",
     dek: "A plant-based diet can work well at any age, but a few specific nutrients require more deliberate planning for older adults than general plant-based guidance usually emphasizes.",
     date: "2026-07-29",
     readTime: "4 min",
@@ -2560,6 +2694,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "reading-supplement-labels-critically-guide",
     title: "Reading a supplement label critically: what the claims on the bottle actually mean",
+    seoTitle: "Reading a supplement label critically",
     dek: "Supplement labels use specific regulatory language that sounds like medical endorsement but legally means something much narrower. How to actually read one.",
     date: "2026-07-30",
     readTime: "5 min",
@@ -2574,6 +2709,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "pulmonary-hypertension-cor-pulmonale-explained",
     title: "Pulmonary hypertension and cor pulmonale: how lung disease strains the right heart",
+    seoTitle: "Pulmonary hypertension and cor pulmonale",
     dek: "Chronic lung disease doesn't stay contained to the lungs. The specific mechanism by which COPD and other respiratory conditions eventually put real strain on the heart's right side.",
     date: "2026-07-21",
     readTime: "5 min",
@@ -2588,6 +2724,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "home-blood-pressure-monitor-selection-accuracy",
     title: "Choosing a home blood pressure monitor: the accuracy differences that actually matter",
+    seoTitle: "Choosing a home blood pressure monitor",
     dek: "Not all consumer blood pressure monitors are equally accurate, and the differences that matter most aren't the ones most shoppers check first.",
     date: "2026-07-22",
     readTime: "4 min",
@@ -2602,6 +2739,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "edema-fluid-retention-management-guide",
     title: "Edema and fluid retention: what's actually causing the swelling, and what helps",
+    seoTitle: "Edema and fluid retention",
     dek: "Swelling in the legs and ankles has several genuinely distinct underlying causes that call for different management. Sorting out which one applies matters more than treating the swelling itself.",
     date: "2026-07-23",
     readTime: "5 min",
@@ -2616,6 +2754,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "pfo-patent-foramen-ovale-explained",
     title: "Patent foramen ovale: the common heart finding that's usually not a problem",
+    seoTitle: "Patent foramen ovale",
     dek: "A PFO shows up incidentally in roughly a quarter of adults and rarely causes any issue at all. The specific situations where it actually becomes clinically relevant.",
     date: "2026-07-24",
     readTime: "4 min",
@@ -2630,6 +2769,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "hfpef-heart-failure-preserved-ejection-fraction",
     title: "Heart failure with preserved ejection fraction: the diagnosis that's easy to miss",
+    seoTitle: "Heart failure with preserved ejection fraction",
     dek: "A normal ejection fraction on an echocardiogram doesn't rule out heart failure. HFpEF is a genuinely distinct diagnosis that produces the same symptoms through a different mechanism.",
     date: "2026-07-25",
     readTime: "5 min",
@@ -2644,6 +2784,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "anticoagulants-bleeding-risk-monitoring",
     title: "Anticoagulants and bleeding risk: what actually needs monitoring, and how often",
+    seoTitle: "Anticoagulants and bleeding risk",
     dek: "Not all blood thinners require the same monitoring, and the difference between them is one of the more consequential distinctions for anyone actually taking one.",
     date: "2026-07-26",
     readTime: "5 min",
@@ -2658,6 +2799,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "orthostatic-hypotension-older-adults-guide",
     title: "Orthostatic hypotension: why standing up too fast becomes more dangerous with age",
+    seoTitle: "Orthostatic hypotension",
     dek: "A brief head rush when standing is common at any age. In older adults, it's a specific, well-defined condition with real fall risk, and specific, learnable countermeasures.",
     date: "2026-07-27",
     readTime: "4 min",
@@ -2672,6 +2814,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cardiac-medications-grapefruit-interaction",
     title: "Cardiac medications and grapefruit: the interaction that's real, and the one that isn't",
+    seoTitle: "Cardiac medications and grapefruit",
     dek: "The grapefruit-and-medication warning gets applied broadly, but the actual mechanism only affects specific drugs metabolized through a specific pathway. Which cardiac medications actually carry this risk.",
     date: "2026-07-28",
     readTime: "4 min",
@@ -2686,6 +2829,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "exercise-stress-test-what-to-expect",
     title: "The exercise stress test: what actually happens, and what the results mean",
+    seoTitle: "The exercise stress test",
     dek: "A treadmill stress test is a common but often under-explained cardiac diagnostic. What the test is actually looking for, and how to interpret what 'positive' and 'negative' mean in this specific context.",
     date: "2026-07-29",
     readTime: "5 min",
@@ -2700,6 +2844,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "ankle-brachial-index-peripheral-artery-disease",
     title: "The ankle-brachial index: a simple test for peripheral artery disease most people haven't heard of",
+    seoTitle: "The ankle-brachial index",
     dek: "Comparing blood pressure at the ankle to blood pressure at the arm sounds too simple to be diagnostically useful. It's actually a well-validated, widely used screening test for a commonly under-diagnosed condition.",
     date: "2026-07-30",
     readTime: "4 min",
@@ -2714,6 +2859,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "smart-pill-dispensers-medication-adherence",
     title: "Smart pill dispensers: do they actually improve medication adherence?",
+    seoTitle: "Smart pill dispensers",
     dek: "Automated dispensers with alarms and locked compartments promise to solve missed doses. The evidence on whether they actually change adherence outcomes is more mixed than the marketing suggests.",
     date: "2026-07-21",
     readTime: "4 min",
@@ -2728,6 +2874,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "medical-alert-systems-fall-detection-wearables",
     title: "Medical alert systems and fall-detection wearables: how the technology actually differs",
+    seoTitle: "Medical alert systems and fall-detection wearables",
     dek: "Traditional pendant alert buttons and newer fall-detection wearables solve related but genuinely different problems. The distinction that should actually drive which one — or both — makes sense for a given situation.",
     date: "2026-07-22",
     readTime: "5 min",
@@ -2742,6 +2889,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "telehealth-billing-insurance-basics",
     title: "Telehealth billing: what insurance actually covers, and where the surprise costs hide",
+    seoTitle: "Telehealth billing",
     dek: "Telehealth coverage expanded substantially in recent years, but coverage details still vary meaningfully by visit type, provider, and insurance plan in ways worth understanding before assuming parity with in-person care.",
     date: "2026-07-23",
     readTime: "5 min",
@@ -2756,6 +2904,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "ehr-patient-portal-navigation-tips",
     title: "Getting more out of your patient portal: the features most people never use",
+    seoTitle: "Getting more out of your patient portal",
     dek: "Most patients use their portal for appointment scheduling and little else. Several underused features actually do more to improve care coordination than the basics most people stick to.",
     date: "2026-07-24",
     readTime: "4 min",
@@ -2770,6 +2919,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "ai-symptom-checkers-accuracy-limits",
     title: "AI symptom checkers: where they're actually useful, and where they get it wrong",
+    seoTitle: "AI symptom checkers",
     dek: "Consumer symptom-checker tools have gotten more sophisticated, but independent testing consistently shows specific, predictable failure patterns worth understanding before relying on one.",
     date: "2026-07-25",
     readTime: "5 min",
@@ -2784,6 +2934,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "home-spirometer-devices-self-monitoring-copd",
     title: "Home spirometers: self-monitoring COPD between pulmonologist visits",
+    seoTitle: "Home spirometers",
     dek: "Portable home spirometry devices let COPD patients track lung function trends between office visits. What the numbers actually mean, and the real limitations of home measurement versus clinical spirometry.",
     date: "2026-07-26",
     readTime: "5 min",
@@ -2798,6 +2949,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "blood-pressure-cuff-accuracy-calibration",
     title: "Blood pressure cuff accuracy: why yours might be reading wrong, and how to check",
+    seoTitle: "Blood pressure cuff accuracy",
     dek: "A home blood pressure monitor that was accurate when purchased doesn't necessarily stay accurate indefinitely. The specific checks that catch drift before it affects a treatment decision.",
     date: "2026-07-27",
     readTime: "4 min",
@@ -2812,6 +2964,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "smart-scale-body-composition-accuracy",
     title: "Smart scales and body composition: how accurate is the number really",
+    seoTitle: "Smart scales and body composition",
     dek: "Consumer smart scales estimate body fat percentage using a technology with well-documented accuracy limitations that most users never see disclosed on the box.",
     date: "2026-07-28",
     readTime: "4 min",
@@ -2826,6 +2979,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "medication-interaction-checker-apps-guide",
     title: "Medication interaction checker apps: useful screening tool, not a substitute for a pharmacist",
+    seoTitle: "Medication interaction checker apps",
     dek: "Free interaction-checker tools flag a real and useful first pass of potential medication conflicts. What they reliably catch, and the specific gaps that still require a pharmacist's judgment.",
     date: "2026-07-29",
     readTime: "4 min",
@@ -2840,6 +2994,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "remote-tele-critical-care-programs-explained",
     title: "Tele-critical care: how remote ICU monitoring actually works",
+    seoTitle: "Tele-critical care",
     dek: "Remote monitoring centers now support ICU care in hospitals without round-the-clock, in-person intensivist coverage. How the technology and staffing model actually function together.",
     date: "2026-07-30",
     readTime: "5 min",
@@ -2854,6 +3009,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "respite-care-options-explained",
     title: "Respite care options: the real choices when a caregiver needs a break",
+    seoTitle: "Respite care options",
     dek: "Respite care covers more ground than most caregivers realize, from a few hours of in-home help to a short residential stay. What's actually available, and how to figure out which fits.",
     date: "2026-07-21",
     readTime: "5 min",
@@ -2868,6 +3024,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "advance-directives-polst-forms-explained",
     title: "Advance directives and POLST forms: the difference, and why both matter",
+    seoTitle: "Advance directives and POLST forms",
     dek: "These two documents get confused for each other constantly, but they serve genuinely different purposes and neither one substitutes for the other.",
     date: "2026-07-22",
     readTime: "5 min",
@@ -2882,6 +3039,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "hospice-vs-palliative-care-differences",
     title: "Hospice vs. palliative care: the distinction most people get wrong",
+    seoTitle: "Hospice vs. palliative care",
     dek: "Palliative care isn't just hospice under another name, and understanding the actual difference changes when it makes sense to ask about either one.",
     date: "2026-07-23",
     readTime: "5 min",
@@ -2896,6 +3054,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "caregiver-tax-credits-financial-assistance",
     title: "Caregiver tax credits and financial assistance: the programs worth knowing about",
+    seoTitle: "Caregiver tax credits and financial assistance",
     dek: "Family caregiving carries real, often underestimated financial cost. Several tax provisions and assistance programs exist specifically to offset it, and most eligible caregivers never claim them.",
     date: "2026-07-24",
     readTime: "5 min",
@@ -2910,6 +3069,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "technology-remote-caregiving-monitoring",
     title: "Technology for remote caregiving: monitoring a parent who lives on their own",
+    seoTitle: "Technology for remote caregiving",
     dek: "For adult children caregiving from a distance, a specific set of monitoring technologies can meaningfully close the information gap without turning a parent's home into a surveillance environment.",
     date: "2026-07-25",
     readTime: "5 min",
@@ -2924,6 +3084,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "medical-equipment-loan-closets-assistance-programs",
     title: "Medical equipment loan closets: where to find free or low-cost equipment",
+    seoTitle: "Medical equipment loan closets",
     dek: "Loan closets, run by nonprofits, faith communities, and local health agencies, circulate donated durable medical equipment for free or low cost. Most families never learn they exist until they need them.",
     date: "2026-07-26",
     readTime: "4 min",
@@ -2938,6 +3099,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "oxygen-power-outage-planning-caregivers",
     title: "Power outage planning for oxygen-dependent patients: what caregivers need in place",
+    seoTitle: "Power outage planning for oxygen-dependent patients",
     dek: "For an oxygen-dependent patient, a power outage is a genuine emergency requiring a specific plan established well before it happens, not improvised in the moment.",
     date: "2026-07-27",
     readTime: "5 min",
@@ -2952,6 +3114,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "finding-caregiver-support-group-guide",
     title: "Finding a caregiver support group: what actually helps, and how to find one that fits",
+    seoTitle: "Finding a caregiver support group",
     dek: "Not every support group works for every caregiver. What distinguishes a genuinely useful group from one that leaves a caregiver feeling worse, and where to actually look.",
     date: "2026-07-28",
     readTime: "4 min",
@@ -2966,6 +3129,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "hospital-to-home-care-transition-checklist",
     title: "The hospital-to-home transition: a checklist that actually prevents the readmission",
+    seoTitle: "The hospital-to-home transition",
     dek: "A meaningful share of hospital readmissions trace back to gaps in the discharge transition itself, not a genuine medical relapse. The specific checklist items that close those gaps.",
     date: "2026-07-29",
     readTime: "5 min",
@@ -2980,6 +3144,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "durable-power-of-attorney-healthcare-basics",
     title: "Durable power of attorney for healthcare: what it covers, and how it's different from a will",
+    seoTitle: "Durable power of attorney for healthcare",
     dek: "A healthcare power of attorney and a last will and testament serve entirely different purposes, and confusing them leaves a real gap in a family's planning.",
     date: "2026-07-30",
     readTime: "4 min",
@@ -2994,6 +3159,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "gpo-purchasing-durable-medical-equipment-basics",
     title: "GPO purchasing for durable medical equipment: how group contracts actually work",
+    seoTitle: "GPO purchasing for durable medical equipment",
     dek: "Group purchasing organizations negotiate equipment pricing on behalf of member facilities, but the model only delivers real savings under specific conditions worth understanding before assuming a GPO contract is automatically the best available price.",
     date: "2026-07-21",
     readTime: "5 min",
@@ -3008,6 +3174,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "biomedical-equipment-maintenance-contracts-explained",
     title: "Biomedical equipment maintenance contracts: what's actually covered, and what isn't",
+    seoTitle: "Biomedical equipment maintenance contracts",
     dek: "A full-service maintenance contract and a time-and-materials arrangement produce very different cost and risk profiles for the same equipment. What actually belongs in the comparison.",
     date: "2026-07-22",
     readTime: "5 min",
@@ -3022,6 +3189,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "hospital-oxygen-supply-systems-bulk-vs-cylinder",
     title: "Hospital oxygen supply systems: bulk, cylinder, and concentrator sources compared",
+    seoTitle: "Hospital oxygen supply systems",
     dek: "Hospitals rarely rely on a single oxygen source. How bulk liquid oxygen, cylinder backup, and on-site generation systems typically work together, and why redundancy is the whole point of the design.",
     date: "2026-07-23",
     readTime: "5 min",
@@ -3036,6 +3204,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "hme-accreditation-medicare-supplier-standards",
     title: "HME accreditation: the Medicare supplier standards that actually gate reimbursement",
+    seoTitle: "HME accreditation",
     dek: "Medicare requires DME suppliers to meet specific accreditation and quality standards before billing privileges are granted at all. What those standards actually cover, and why they matter beyond simple compliance box-checking.",
     date: "2026-07-24",
     readTime: "5 min",
@@ -3050,6 +3219,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "disaster-preparedness-oxygen-supply-facilities",
     title: "Disaster preparedness for oxygen supply: what facilities actually need in place",
+    seoTitle: "Disaster preparedness for oxygen supply",
     dek: "A facility's oxygen supply disaster plan needs to address far more than simply having extra cylinders on hand. What genuine preparedness actually requires.",
     date: "2026-07-25",
     readTime: "5 min",
@@ -3064,6 +3234,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "respiratory-therapist-staffing-models-explained",
     title: "Respiratory therapist staffing models: how facilities actually size the team",
+    seoTitle: "Respiratory therapist staffing models",
     dek: "Respiratory therapist staffing ratios vary considerably by unit type and patient acuity, and getting the model wrong shows up directly in patient outcomes, not just in staff workload complaints.",
     date: "2026-07-26",
     readTime: "5 min",
@@ -3078,6 +3249,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "home-medical-equipment-delivery-logistics",
     title: "Home medical equipment delivery: the logistics behind getting a concentrator to your door",
+    seoTitle: "Home medical equipment delivery",
     dek: "Between an order being placed and equipment arriving at home, a specific sequence of verification and logistics steps determines how fast delivery actually happens.",
     date: "2026-07-27",
     readTime: "4 min",
@@ -3092,6 +3264,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "dme-billing-codes-hcpcs-basics",
     title: "DME billing codes: what HCPCS actually determines about your reimbursement",
+    seoTitle: "DME billing codes",
     dek: "The specific HCPCS code assigned to a piece of equipment determines reimbursement eligibility, documentation requirements, and even whether a rental or purchase model applies. What these codes actually do.",
     date: "2026-07-28",
     readTime: "5 min",
@@ -3106,6 +3279,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "refurbished-ventilator-market-considerations",
     title: "The refurbished ventilator market: what's worth buying, and what due diligence actually looks like",
+    seoTitle: "The refurbished ventilator market",
     dek: "A refurbished ventilator can be a legitimate, cost-effective option for the right facility, but the due diligence required is considerably more involved than for simpler refurbished DME categories.",
     date: "2026-07-29",
     readTime: "5 min",
@@ -3120,6 +3294,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "service-level-agreements-medical-equipment-fleets",
     title: "Service level agreements for equipment fleets: what actually belongs in the contract",
+    seoTitle: "Service level agreements for equipment fleets",
     dek: "A service level agreement covering a facility's equipment fleet is only as good as its specific, measurable commitments. The details that separate a genuinely protective contract from one that merely sounds reassuring.",
     date: "2026-07-30",
     readTime: "5 min",
@@ -3134,6 +3309,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "hormone-replacement-therapy-longevity-debate",
     title: "Hormone replacement therapy and longevity: where the evidence actually stands",
+    seoTitle: "Hormone replacement therapy and longevity",
     dek: "HRT's reputation has swung sharply in both directions over the past two decades. A more careful look at what current, better-designed research actually shows about risk and timing.",
     date: "2026-07-21",
     readTime: "5 min",
@@ -3148,6 +3324,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "resistance-training-bone-density-aging",
     title: "Resistance training and bone density: why lifting matters more after 50",
+    seoTitle: "Resistance training and bone density",
     dek: "Bone density loss accelerates with age in a way cardio exercise alone doesn't meaningfully address. The specific mechanical stimulus resistance training provides that bone tissue actually responds to.",
     date: "2026-07-22",
     readTime: "4 min",
@@ -3162,6 +3339,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "gait-speed-longevity-biomarker",
     title: "Walking speed as a longevity biomarker: what your gait actually predicts",
+    seoTitle: "Walking speed as a longevity biomarker",
     dek: "A simple timed walk over a short distance turns out to be one of the more robust, well-validated predictors of mortality risk in older adults — a genuinely surprising amount of prognostic information from a genuinely simple measurement.",
     date: "2026-07-23",
     readTime: "4 min",
@@ -3176,6 +3354,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "chronotype-optimal-sleep-timing",
     title: "Chronotype and sleep timing: why 'early to bed' isn't right for everyone",
+    seoTitle: "Chronotype and sleep timing",
     dek: "Individual chronotype — a largely biological, not purely behavioral, trait — determines natural sleep timing preference, and fighting against it carries real costs that generic sleep hygiene advice tends to ignore.",
     date: "2026-07-24",
     readTime: "4 min",
@@ -3190,6 +3369,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "gut-microbiome-diversity-aging",
     title: "Gut microbiome diversity and aging: what changes, and what actually helps",
+    seoTitle: "Gut microbiome diversity and aging",
     dek: "Gut microbiome diversity tends to decline with age in ways connected to broader health outcomes. What the research on diet and diversity actually supports, separated from the more speculative claims.",
     date: "2026-07-25",
     readTime: "5 min",
@@ -3204,6 +3384,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "telomere-length-testing-limitations",
     title: "Telomere length testing: why the consumer version tells you less than it claims",
+    seoTitle: "Telomere length testing",
     dek: "Telomere shortening is a real, well-studied aging marker in research settings. The commercial tests marketed directly to consumers have specific, significant limitations the marketing doesn't emphasize.",
     date: "2026-07-26",
     readTime: "4 min",
@@ -3218,6 +3399,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "caloric-restriction-research-humans",
     title: "Caloric restriction and longevity: what the human research actually shows",
+    seoTitle: "Caloric restriction and longevity",
     dek: "Caloric restriction dramatically extends lifespan in several animal models. Whether that translates meaningfully to humans is a genuinely different, less settled question worth separating from the animal research.",
     date: "2026-07-27",
     readTime: "5 min",
@@ -3232,6 +3414,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cognitive-reserve-brain-health-aging",
     title: "Cognitive reserve: why some brains tolerate age-related change better than others",
+    seoTitle: "Cognitive reserve",
     dek: "Two people with similar levels of brain pathology can show very different cognitive symptoms. Cognitive reserve is the concept researchers use to explain that gap, and it's more actionable than it might sound.",
     date: "2026-07-28",
     readTime: "5 min",
@@ -3246,6 +3429,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "hearing-loss-cognitive-decline-link",
     title: "Hearing loss and cognitive decline: the link that's stronger than most people realize",
+    seoTitle: "Hearing loss and cognitive decline",
     dek: "Untreated age-related hearing loss is now understood as one of the more significant modifiable risk factors for dementia identified in recent research. Why the connection is likely more than a simple coincidence.",
     date: "2026-07-29",
     readTime: "5 min",
@@ -3260,6 +3444,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "oral-health-systemic-disease-connection",
     title: "Oral health and systemic disease: the connection between your gums and your heart",
+    seoTitle: "Oral health and systemic disease",
     dek: "Periodontal disease's association with cardiovascular disease and other systemic conditions is genuinely well-documented. The proposed mechanisms, and what the evidence on treatment actually shows.",
     date: "2026-07-30",
     readTime: "4 min",
@@ -3274,6 +3459,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "prostate-cancer-screening-psa-controversy",
     title: "Prostate cancer screening: the PSA test controversy, explained plainly",
+    seoTitle: "Prostate cancer screening",
     dek: "Few screening tests have swung as sharply between broad recommendation and broad caution as PSA testing. What the actual controversy is about, and where current guidance has landed.",
     date: "2026-07-21",
     readTime: "5 min",
@@ -3288,6 +3474,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cervical-cancer-screening-hpv-testing",
     title: "Cervical cancer screening: how HPV testing changed the guidelines",
+    seoTitle: "Cervical cancer screening",
     dek: "Cervical cancer screening intervals have lengthened considerably in recent years, and the reason is a genuine improvement in test accuracy, not a loosening of screening standards.",
     date: "2026-07-22",
     readTime: "5 min",
@@ -3302,6 +3489,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "pancreatic-cancer-screening-high-risk",
     title: "Pancreatic cancer screening: who's actually high-risk enough to qualify",
+    seoTitle: "Pancreatic cancer screening",
     dek: "Pancreatic cancer has no routine screening test for the general population, but a specific, well-defined high-risk group does have real screening options worth understanding.",
     date: "2026-07-23",
     readTime: "4 min",
@@ -3316,6 +3504,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cancer-screening-cost-insurance-coverage",
     title: "Cancer screening costs: what insurance actually covers, and where the gaps are",
+    seoTitle: "Cancer screening costs",
     dek: "Insurance coverage for routine cancer screening is broader than many patients realize, but specific gaps around follow-up testing and screening-versus-diagnostic classification catch people off guard.",
     date: "2026-07-24",
     readTime: "5 min",
@@ -3330,6 +3519,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "cancer-screening-guidelines-after-75",
     title: "Cancer screening after 75: when the guidelines actually say to stop",
+    seoTitle: "Cancer screening after 75",
     dek: "Most cancer screening guidelines include an upper age limit or shift to individualized decision-making after a certain age. The reasoning behind this, and why it isn't about giving up on older patients.",
     date: "2026-07-25",
     readTime: "4 min",
@@ -3344,6 +3534,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "liquid-biopsy-blood-based-cancer-screening",
     title: "Liquid biopsy: what blood-based cancer screening can and can't do yet",
+    seoTitle: "Liquid biopsy",
     dek: "Blood tests that detect cancer through circulating tumor DNA have generated real excitement, but current multi-cancer detection tests carry specific, significant limitations worth understanding before treating them as a routine screening replacement.",
     date: "2026-07-26",
     readTime: "5 min",
@@ -3358,6 +3549,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "screening-interval-logic-why-not-every-year",
     title: "Why cancer screening isn't done every year: the logic behind the intervals",
+    seoTitle: "Why cancer screening isn't done every year",
     dek: "Screening intervals longer than a year feel counterintuitive to patients assuming more frequent testing is always safer. The actual mathematical and biological reasoning behind interval-based screening.",
     date: "2026-07-27",
     readTime: "4 min",
@@ -3372,6 +3564,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "false-positive-screening-anxiety-guide",
     title: "False positives in cancer screening: why they happen, and how to think about the anxiety",
+    seoTitle: "False positives in cancer screening",
     dek: "A false positive screening result is a normal, expected, and statistically inevitable part of any screening program. Understanding why doesn't eliminate the anxiety, but it does put it in accurate context.",
     date: "2026-07-28",
     readTime: "4 min",
@@ -3386,6 +3579,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "brca-genetic-testing-hereditary-cancer-risk",
     title: "BRCA and genetic testing: understanding hereditary cancer risk before you test",
+    seoTitle: "BRCA and genetic testing",
     dek: "BRCA mutations carry substantial, well-documented cancer risk implications, but genetic testing raises considerations — for the individual and their family — worth thinking through before testing, not just after results arrive.",
     date: "2026-07-29",
     readTime: "5 min",
@@ -3400,6 +3594,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "colonoscopy-vs-stool-based-screening-tests",
     title: "Colonoscopy vs. stool-based tests: the real tradeoffs in colorectal cancer screening",
+    seoTitle: "Colonoscopy vs. stool-based tests",
     dek: "Colonoscopy and stool-based tests both meet guideline screening standards, but they differ meaningfully in what they can actually detect and what happens next. The comparison worth understanding before choosing.",
     date: "2026-07-30",
     readTime: "5 min",

@@ -6,6 +6,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "menopause-hormone-therapy-updated-safety-guidance",
     title: "Menopause hormone therapy: how the safety guidance has changed since the original WHI panic",
+    seoTitle: "Menopause hormone therapy",
     dek: "The 2002 Women's Health Initiative results reshaped hormone therapy prescribing for two decades — newer analysis has meaningfully revised that picture.",
     date: "2026-05-04",
     readTime: "5 min",
@@ -19,6 +20,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "perimenopause-symptoms-underrecognized-diagnosis-gap",
     title: "Perimenopause symptoms are widely underrecognized — here's what the research says clinicians miss",
+    seoTitle: "Perimenopause symptoms are widely underrecognized",
     dek: "The transition years before menopause proper carry a symptom pattern that's frequently misattributed to other causes.",
     date: "2026-05-03",
     readTime: "4 min",
@@ -32,6 +34,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "endometriosis-diagnosis-delay-research-explained",
     title: "Why endometriosis diagnosis takes an average of years — the research behind the delay",
+    seoTitle: "Why endometriosis diagnosis takes an average of years",
     dek: "Studies consistently find a long gap between symptom onset and diagnosis for this common condition — the reasons are specific and partly addressable.",
     date: "2026-05-02",
     readTime: "5 min",
@@ -45,6 +48,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "iron-deficiency-without-anemia-fatigue-research",
     title: "Iron deficiency without anemia: an underrecognized cause of fatigue the standard blood test can miss",
+    seoTitle: "Iron deficiency without anemia",
     dek: "A normal hemoglobin doesn't rule out iron deficiency — a specific additional test is needed, and it's not always ordered by default.",
     date: "2026-05-01",
     readTime: "4 min",
@@ -58,6 +62,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "postpartum-recovery-timeline-fourth-trimester-research",
     title: "The 'fourth trimester': what the postpartum recovery research actually says about timelines",
+    seoTitle: "The 'fourth trimester'",
     dek: "Physical recovery from childbirth extends well beyond the traditional six-week checkup, and the evidence supports a longer, more structured view.",
     date: "2026-04-30",
     readTime: "5 min",
@@ -71,6 +76,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "picky-eating-versus-arfid-when-to-seek-help",
     title: "Picky eating vs. ARFID: when restrictive eating in children needs professional evaluation",
+    seoTitle: "Picky eating vs. ARFID",
     dek: "Most picky eating is developmentally normal — a distinct clinical condition looks different and has specific warning signs.",
     date: "2026-04-29",
     readTime: "4 min",
@@ -84,6 +90,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "screen-time-child-development-research-nuance",
     title: "Screen time and child development: what the research actually supports beyond the headlines",
+    seoTitle: "Screen time and child development",
     dek: "The relationship between screen exposure and developmental outcomes is more dependent on content and context than blanket time limits suggest.",
     date: "2026-04-28",
     readTime: "5 min",
@@ -97,6 +104,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "seasonal-affective-disorder-light-therapy-evidence",
     title: "Light therapy for seasonal affective disorder: the specific protocol the evidence actually supports",
+    seoTitle: "Light therapy for seasonal affective disorder",
     dek: "Not all light boxes and usage patterns are equally effective — the trial evidence points to specific intensity, timing, and duration parameters.",
     date: "2026-04-27",
     readTime: "4 min",
@@ -110,6 +118,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "fecal-microbiota-transplant-approved-uses-research",
     title: "Fecal microbiota transplant: the one FDA-approved use and the many unapproved ones under study",
+    seoTitle: "Fecal microbiota transplant",
     dek: "FMT has a specific, well-established medical application and a much larger, still-experimental research frontier that's easy to conflate.",
     date: "2026-04-26",
     readTime: "4 min",
@@ -123,6 +132,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "long-covid-research-current-understanding-treatment",
     title: "Long COVID research: what's become clearer and what remains genuinely unresolved",
+    seoTitle: "Long COVID research",
     dek: "Several years into sustained research funding, some mechanisms and treatment approaches have solidified while others remain actively contested.",
     date: "2026-04-25",
     readTime: "5 min",
@@ -136,6 +146,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "vaccine-hesitancy-communication-research-what-works",
     title: "What actually changes vaccine-hesitant minds — the communication research, not the assumptions",
+    seoTitle: "What actually changes vaccine-hesitant minds",
     dek: "Public health messaging research has tested specific approaches against each other, and some intuitive strategies perform worse than expected.",
     date: "2026-04-24",
     readTime: "5 min",
@@ -149,6 +160,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "clinical-trial-participation-patient-access-research",
     title: "How patients actually find and access clinical trials — and why most eligible patients never enroll",
+    seoTitle: "How patients actually find and access clinical trials",
     dek: "A large share of clinical trials struggle to enroll enough participants, and the barriers are more structural than lack of patient interest.",
     date: "2026-04-23",
     readTime: "5 min",
@@ -162,6 +174,7 @@ export const NEW_ARTICLES_2026_08C: Article[] = [
   {
     slug: "electronic-health-record-patient-portal-underuse",
     title: "Patient portals are underused for one of their most useful features — here's what most people skip",
+    seoTitle: "Patient portals are underused",
     dek: "Most patients log into a portal only to check test results, missing functions research shows meaningfully improve care coordination.",
     date: "2026-04-22",
     readTime: "4 min",

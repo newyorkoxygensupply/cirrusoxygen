@@ -70,14 +70,15 @@ export async function generateMetadata({
   const article = getArticle(slug);
   if (!article) return {};
   const url = `/journal/${article.slug}`;
+  const seoTitle = article.seoTitle ?? article.title;
   return {
-    title: article.title,
+    title: seoTitle,
     description: article.dek,
     alternates: { canonical: url },
     openGraph: {
       type: "article",
       url,
-      title: article.title,
+      title: seoTitle,
       description: article.dek,
       publishedTime: article.date,
       modifiedTime: article.date,
@@ -86,7 +87,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: article.title,
+      title: seoTitle,
       description: article.dek,
     },
   };

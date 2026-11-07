@@ -11,6 +11,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "glp-1-drugs-oxygen-therapy-copd-patients",
     title: "GLP-1 drugs and oxygen therapy: what COPD patients on semaglutide should know",
+    seoTitle: "GLP-1 drugs and oxygen therapy",
     dek: "Weight loss from GLP-1 agonists changes oxygen demand, medication dosing, and sometimes the flow rate a concentrator needs to deliver — here's what actually shifts.",
     date: "2026-07-30",
     readTime: "5 min",
@@ -24,6 +25,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "tirzepatide-vs-semaglutide-differences-2026",
     title: "Tirzepatide vs. semaglutide: how the two leading GLP-1 drugs actually differ",
+    seoTitle: "Tirzepatide vs. semaglutide",
     dek: "Both suppress appetite through incretin pathways, but they're not interchangeable — the dual-agonist mechanism behind tirzepatide changes the numbers.",
     date: "2026-07-29",
     readTime: "4 min",
@@ -37,6 +39,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "muscle-loss-glp-1-weight-loss-resistance-training",
     title: "The muscle-loss problem with GLP-1 drugs — and why resistance training isn't optional",
+    seoTitle: "The muscle-loss problem with GLP-1 drugs",
     dek: "Rapid weight loss on semaglutide or tirzepatide comes disproportionately from lean mass unless you actively train against it.",
     date: "2026-07-28",
     readTime: "4 min",
@@ -50,6 +53,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "glp-1-shortage-compounded-alternatives-safety",
     title: "Compounded GLP-1 drugs: what the safety data actually says",
+    seoTitle: "Compounded GLP-1 drugs",
     dek: "Shortages pushed patients toward compounded semaglutide and tirzepatide — the FDA's own adverse event data tells a specific, not generic, cautionary story.",
     date: "2026-07-27",
     readTime: "5 min",
@@ -63,6 +67,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "glp-1-drugs-sleep-apnea-severity-reduction",
     title: "GLP-1 drugs measurably reduce sleep apnea severity — here's the actual AHI data",
+    seoTitle: "GLP-1 drugs measurably reduce sleep apnea severity",
     dek: "Tirzepatide trials in obstructive sleep apnea reported meaningful drops in the Apnea-Hypopnea Index, but they didn't eliminate the diagnosis for most participants.",
     date: "2026-07-26",
     readTime: "4 min",
@@ -76,6 +81,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "glp-1-gastroparesis-risk-explained",
     title: "GLP-1 drugs and gastroparesis: separating a rare risk from routine nausea",
+    seoTitle: "GLP-1 drugs and gastroparesis",
     dek: "Most GI side effects on semaglutide are dose-related and transient. A small number of cases are something else entirely.",
     date: "2026-07-25",
     readTime: "4 min",
@@ -89,6 +95,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "glp-1-drugs-heart-failure-outcomes-data",
     title: "What GLP-1 drugs actually do for heart failure patients — the SUMMIT and STEP-HFpEF data",
+    seoTitle: "What GLP-1 drugs actually do for heart failure patients",
     dek: "Beyond weight loss, tirzepatide and semaglutide trials in heart failure with preserved ejection fraction reported functional gains independent of the scale.",
     date: "2026-07-24",
     readTime: "5 min",
@@ -102,6 +109,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "glp-1-drugs-kidney-disease-protection-data",
     title: "GLP-1 drugs and kidney protection: what the FLOW trial found",
+    seoTitle: "GLP-1 drugs and kidney protection",
     dek: "Semaglutide's kidney-outcomes trial in type 2 diabetes with chronic kidney disease stopped early — for the right reason.",
     date: "2026-07-23",
     readTime: "4 min",
@@ -115,6 +123,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "stopping-glp-1-drugs-weight-regain-timeline",
     title: "What happens when you stop GLP-1 drugs — the weight-regain timeline",
+    seoTitle: "What happens when you stop GLP-1 drugs",
     dek: "Trial withdrawal data is specific about how much weight comes back and how fast, once semaglutide or tirzepatide stops.",
     date: "2026-07-22",
     readTime: "4 min",
@@ -128,6 +137,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "glp-1-drugs-alcohol-cravings-addiction-research",
     title: "The unexpected finding: GLP-1 drugs and reduced alcohol cravings",
+    seoTitle: "The unexpected finding",
     dek: "Semaglutide wasn't developed for addiction, but self-reported and early trial data both point to a real effect on drinking behavior.",
     date: "2026-07-21",
     readTime: "4 min",
@@ -141,6 +151,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "microdosing-glp-1-off-label-risks",
     title: "Microdosing GLP-1 drugs: what the off-label trend gets wrong",
+    seoTitle: "Microdosing GLP-1 drugs",
     dek: "Taking less than the approved dose isn't a hack — it changes both the efficacy and the safety profile in ways patients don't always anticipate.",
     date: "2026-07-20",
     readTime: "4 min",
@@ -156,6 +167,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "continuous-glucose-monitors-non-diabetics-worth-it",
     title: "Continuous glucose monitors for non-diabetics: is the data actually useful?",
+    seoTitle: "Continuous glucose monitors for non-diabetics",
     dek: "CGMs have moved from prescription-only diabetes tools to over-the-counter wellness devices — what the glucose data means if you don't have diabetes.",
     date: "2026-07-19",
     readTime: "5 min",
@@ -169,6 +181,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "cuffless-blood-pressure-monitoring-accuracy-2026",
     title: "Cuffless blood pressure monitors: the accuracy problem nobody's fully solved yet",
+    seoTitle: "Cuffless blood pressure monitors",
     dek: "Wrist and finger-based BP sensors are convenient, but the calibration and validation data tells a more cautious story than the marketing.",
     date: "2026-07-18",
     readTime: "5 min",
@@ -182,6 +195,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "smart-ring-vs-smartwatch-sleep-tracking-accuracy",
     title: "Smart ring vs. smartwatch: which actually tracks sleep more accurately?",
+    seoTitle: "Smart ring vs. smartwatch",
     dek: "Both use similar sensors, but form factor changes what the data captures — and where each one tends to get sleep stages wrong.",
     date: "2026-07-17",
     readTime: "4 min",
@@ -195,6 +209,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "wearable-ecg-atrial-fibrillation-detection-limits",
     title: "Wearable ECG for atrial fibrillation: what it catches and what it misses",
+    seoTitle: "Wearable ECG for atrial fibrillation",
     dek: "Single-lead ECG on a smartwatch is a real screening tool, with real, well-documented limits on what it can rule out.",
     date: "2026-07-16",
     readTime: "5 min",
@@ -208,6 +223,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "pulse-oximeter-wearables-continuous-spo2-monitoring",
     title: "Continuous SpO2 wearables: useful trend data, not a medical pulse oximeter",
+    seoTitle: "Continuous SpO2 wearables",
     dek: "Overnight blood-oxygen tracking on consumer devices is genuinely informative for trends — and genuinely unreliable for the absolute number.",
     date: "2026-07-15",
     readTime: "4 min",
@@ -221,6 +237,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "ai-symptom-checkers-accuracy-vs-physician-diagnosis",
     title: "AI symptom checkers vs. physician diagnosis: how big is the accuracy gap, really?",
+    seoTitle: "AI symptom checkers vs. physician diagnosis",
     dek: "Large-scale comparison studies have quantified how often AI triage tools get the right diagnosis on the list — and how often they don't.",
     date: "2026-07-14",
     readTime: "5 min",
@@ -234,6 +251,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "hrv-heart-rate-variability-what-it-actually-measures",
     title: "What heart rate variability actually measures — and what your wearable's HRV score doesn't tell you",
+    seoTitle: "What heart rate variability actually measures",
     dek: "HRV has become a headline wellness metric. Here's the physiology behind the number and where the interpretation on consumer apps oversimplifies.",
     date: "2026-07-13",
     readTime: "4 min",
@@ -247,6 +265,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "telehealth-chronic-disease-management-outcomes-data",
     title: "Does telehealth actually improve chronic disease outcomes? The data by condition",
+    seoTitle: "Does telehealth actually improve chronic disease outcomes?",
     dek: "Telehealth's effectiveness for chronic disease management varies significantly by condition — the outcomes data isn't uniform across diabetes, COPD, and heart failure.",
     date: "2026-07-12",
     readTime: "5 min",
@@ -260,6 +279,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "sleep-apnea-detection-smartwatch-fda-clearance",
     title: "FDA-cleared sleep apnea detection on smartwatches: what it can and can't replace",
+    seoTitle: "FDA-cleared sleep apnea detection on smartwatches",
     dek: "Watch-based sleep apnea notifications are a real, cleared feature now — but the clearance is narrower than 'diagnose sleep apnea.'",
     date: "2026-07-11",
     readTime: "4 min",
@@ -273,6 +293,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "remote-patient-monitoring-medicare-reimbursement-2026",
     title: "How Medicare reimbursement for remote patient monitoring actually works in 2026",
+    seoTitle: "How Medicare reimbursement",
     dek: "RPM billing codes have expanded what's reimbursable — the practical breakdown of what qualifies and what doesn't.",
     date: "2026-07-10",
     readTime: "5 min",
@@ -288,6 +309,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "sleep-debt-cant-be-fully-repaid-research",
     title: "Can you actually repay sleep debt? What the recovery-sleep research shows",
+    seoTitle: "Can you actually repay sleep debt?",
     dek: "Catching up on weekend sleep helps some markers and not others — the research is specific about which deficits linger.",
     date: "2026-07-09",
     readTime: "4 min",
@@ -301,6 +323,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "magnesium-supplements-sleep-quality-evidence",
     title: "Magnesium for sleep: what the evidence actually supports (and what it doesn't)",
+    seoTitle: "Magnesium for sleep: what the evidence actually supports",
     dek: "Magnesium is one of the most recommended sleep supplements online — the clinical trial evidence is real but more modest than the claims.",
     date: "2026-07-08",
     readTime: "4 min",
@@ -314,6 +337,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "blue-light-glasses-sleep-evidence-weak",
     title: "Blue-light blocking glasses for sleep: the evidence is weaker than the marketing",
+    seoTitle: "Blue-light blocking glasses for sleep",
     dek: "The blue-light-disrupts-sleep mechanism is real physiology. Whether consumer glasses meaningfully counteract it is a separate, less settled question.",
     date: "2026-07-07",
     readTime: "4 min",
@@ -327,6 +351,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "sleep-restriction-therapy-insomnia-cbt-i",
     title: "Sleep restriction therapy: the counterintuitive CBT-I technique that works better than sleeping pills",
+    seoTitle: "Sleep restriction therapy",
     dek: "Deliberately reducing time in bed sounds backwards for insomnia — the mechanism and the trial data explain why it's a first-line treatment.",
     date: "2026-07-06",
     readTime: "5 min",
@@ -340,6 +365,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "napping-science-optimal-duration-timing",
     title: "The science of napping: optimal duration, timing, and who should avoid it",
+    seoTitle: "The science of napping",
     dek: "A 20-minute nap and a 90-minute nap produce different physiological effects — the research on timing is specific enough to act on.",
     date: "2026-07-05",
     readTime: "4 min",
@@ -353,6 +379,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "cold-room-temperature-sleep-quality-thermoregulation",
     title: "Why a cold bedroom actually improves sleep — the thermoregulation science",
+    seoTitle: "Why a cold bedroom actually improves sleep",
     dek: "Core body temperature drop is a physiological trigger for sleep onset, and room temperature directly interferes with or supports it.",
     date: "2026-07-04",
     readTime: "4 min",
@@ -366,6 +393,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "orthosomnia-sleep-tracker-anxiety-diagnosis",
     title: "Orthosomnia: when sleep tracking itself becomes the sleep problem",
+    seoTitle: "Orthosomnia",
     dek: "Sleep clinicians have a name now for anxiety driven by obsessive attention to wearable sleep scores — and it's a real presenting complaint.",
     date: "2026-07-03",
     readTime: "4 min",
@@ -379,6 +407,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "sleep-apnea-women-underdiagnosis-symptom-differences",
     title: "Sleep apnea and menopause: how the hormonal shift changes underdiagnosis risk",
+    seoTitle: "Sleep apnea and menopause",
     dek: "Diagnostic criteria and physician suspicion were built around a male-typical presentation, and the data on the gap is stark.",
     date: "2026-07-02",
     readTime: "5 min",
@@ -392,6 +421,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "circadian-rhythm-shift-work-health-risks-mitigation",
     title: "Shift work and circadian disruption: the measurable health risks and what actually mitigates them",
+    seoTitle: "Shift work and circadian disruption",
     dek: "Chronic circadian misalignment carries specific, studied health consequences — and specific, evidence-based mitigation strategies.",
     date: "2026-07-01",
     readTime: "5 min",
@@ -407,6 +437,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "lp-a-lipoprotein-a-cardiovascular-risk-testing",
     title: "Lipoprotein(a): the cardiovascular risk factor most people have never been tested for",
+    seoTitle: "Lipoprotein(a)",
     dek: "Lp(a) is largely genetically determined, isn't affected by diet or exercise, and isn't part of a standard lipid panel — here's why it matters anyway.",
     date: "2026-06-30",
     readTime: "5 min",
@@ -420,6 +451,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "coronary-calcium-score-ct-scan-worth-getting",
     title: "Coronary calcium scoring: when a CT scan tells you more than a cholesterol test",
+    seoTitle: "Coronary calcium scoring",
     dek: "A CAC score directly visualizes plaque rather than inferring risk from blood markers — here's who it's most useful for.",
     date: "2026-06-29",
     readTime: "4 min",
@@ -433,6 +465,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "zone-2-cardio-training-mitochondrial-health",
     title: "How much Zone 2 cardio you actually need per week for the mitochondrial benefits",
+    seoTitle: "How much Zone 2 cardio you actually need per week",
     dek: "Easy, sustainable aerobic pace does something high-intensity intervals don't — and the exercise physiology explains why both matter.",
     date: "2026-06-28",
     readTime: "5 min",
@@ -446,6 +479,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "vo2-max-strongest-predictor-longevity-research",
     title: "VO2 max as a longevity predictor: what the largest cohort studies actually found",
+    seoTitle: "VO2 max as a longevity predictor",
     dek: "Cardiorespiratory fitness has emerged as one of the strongest independent predictors of mortality risk in large population studies — stronger than several traditional risk factors.",
     date: "2026-06-27",
     readTime: "5 min",
@@ -459,6 +493,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "resting-heart-rate-recovery-fitness-marker",
     title: "Heart rate recovery after exercise: an underused fitness and mortality marker",
+    seoTitle: "Heart rate recovery after exercise",
     dek: "How quickly your heart rate drops after stopping exercise is a distinct, independently predictive measurement from resting heart rate alone.",
     date: "2026-06-26",
     readTime: "4 min",
@@ -472,6 +507,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "atrial-fibrillation-alcohol-holiday-heart-syndrome",
     title: "'Holiday heart syndrome': the real link between binge drinking and atrial fibrillation",
+    seoTitle: "'Holiday heart syndrome'",
     dek: "The connection between acute alcohol intake and AFib episodes has a name and a documented mechanism, not just anecdote.",
     date: "2026-06-25",
     readTime: "4 min",
@@ -485,6 +521,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "orthostatic-hypotension-blood-pressure-standing-risk",
     title: "Orthostatic hypotension: why a blood pressure drop when you stand up matters more than people think",
+    seoTitle: "Orthostatic hypotension",
     dek: "It's often dismissed as harmless dizziness, but the condition carries independently documented fall and mortality risk.",
     date: "2026-06-24",
     readTime: "4 min",
@@ -500,6 +537,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "grip-strength-mortality-predictor-research",
     title: "Grip strength as a mortality predictor: what large studies found and why it matters",
+    seoTitle: "Grip strength as a mortality predictor",
     dek: "A simple dynamometer squeeze test has emerged as a surprisingly robust marker of overall health in population research.",
     date: "2026-06-23",
     readTime: "4 min",
@@ -513,6 +551,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "progressive-overload-principle-explained-beginners",
     title: "Progressive overload, explained: the one training principle that actually drives strength gains",
+    seoTitle: "Progressive overload, explained",
     dek: "Most training plateaus trace back to violating this single principle — here's the physiology behind why it works.",
     date: "2026-06-22",
     readTime: "4 min",
@@ -526,6 +565,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "sarcopenia-age-related-muscle-loss-prevention",
     title: "Sarcopenia: the age-related muscle loss that's more preventable than most people realize",
+    seoTitle: "Sarcopenia",
     dek: "Muscle mass decline after age 30 is real and measurable — the research on preventing it is more actionable than the 'inevitable aging' framing suggests.",
     date: "2026-06-21",
     readTime: "5 min",
@@ -539,6 +579,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "hiit-vs-steady-state-cardio-fat-loss-comparison",
     title: "HIIT vs. steady-state cardio for fat loss: what the comparison trials actually show",
+    seoTitle: "HIIT vs. steady-state cardio for fat loss",
     dek: "The 'HIIT burns more fat' claim is more nuanced in the research than the fitness-industry version — time efficiency and adherence turn out to matter more.",
     date: "2026-06-20",
     readTime: "4 min",
@@ -552,6 +593,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "creatine-monohydrate-benefits-beyond-muscle-cognitive",
     title: "Creatine's benefits beyond muscle: what the cognitive and brain-health research shows",
+    seoTitle: "Creatine's benefits beyond muscle",
     dek: "Creatine's strength and power benefits are well established. The newer research on cognitive function is a genuinely different application.",
     date: "2026-06-19",
     readTime: "4 min",
@@ -565,6 +607,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "walking-10000-steps-myth-actual-research",
     title: "The 10,000 steps myth: what step-count mortality research actually found",
+    seoTitle: "The 10,000 steps myth",
     dek: "The number's origin was a 1960s marketing campaign, not a research finding — here's what the real epidemiological data shows instead.",
     date: "2026-06-18",
     readTime: "4 min",
@@ -580,6 +623,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "ultra-processed-food-classification-nova-explained",
     title: "What 'ultra-processed food' actually means — the NOVA classification system explained",
+    seoTitle: "What 'ultra-processed food' actually means",
     dek: "The term gets used loosely in headlines. The formal classification system behind it has specific, defined criteria worth understanding.",
     date: "2026-06-17",
     readTime: "5 min",
@@ -593,6 +637,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "protein-timing-anabolic-window-myth-research",
     title: "The 'anabolic window' myth: what protein timing research actually supports",
+    seoTitle: "The 'anabolic window' myth",
     dek: "The idea that protein must be consumed within 30-60 minutes post-workout to count has been substantially walked back by newer research.",
     date: "2026-06-16",
     readTime: "4 min",
@@ -606,6 +651,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "gut-microbiome-diversity-diet-fiber-research",
     title: "Gut microbiome diversity: what actually changes it, according to controlled trials",
+    seoTitle: "Gut microbiome diversity",
     dek: "Microbiome science has moved past correlation studies into controlled dietary interventions — the fiber-diversity findings are among the clearest.",
     date: "2026-06-15",
     readTime: "5 min",
@@ -619,6 +665,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "intermittent-fasting-time-restricted-eating-evidence",
     title: "Time-restricted eating: what the controlled trials show versus the popular claims",
+    seoTitle: "Time-restricted eating",
     dek: "Intermittent fasting's benefits in trials are real but more modest, and more explainable by simple calorie reduction, than the metabolic-magic framing suggests.",
     date: "2026-06-14",
     readTime: "5 min",
@@ -632,6 +679,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "sodium-salt-sensitivity-individual-variation-research",
     title: "Salt sensitivity isn't universal — the individual variation research behind sodium guidelines",
+    seoTitle: "Salt sensitivity isn't universal",
     dek: "Blood pressure response to sodium intake varies significantly between individuals, and genetics and other factors explain a meaningful part of why.",
     date: "2026-06-13",
     readTime: "4 min",
@@ -645,6 +693,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "omega-3-fish-oil-supplements-evidence-cardiovascular",
     title: "Fish oil supplements and heart health: what the largest cardiovascular trials actually found",
+    seoTitle: "Fish oil supplements and heart health",
     dek: "Omega-3 supplementation's cardiovascular benefit is more contested in large trial data than the supplement aisle suggests.",
     date: "2026-06-12",
     readTime: "5 min",
@@ -660,6 +709,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "multi-cancer-early-detection-blood-tests-explained",
     title: "Multi-cancer early detection blood tests: what they can and can't tell you yet",
+    seoTitle: "Multi-cancer early detection blood tests",
     dek: "A single blood draw screening for signals of dozens of cancer types sounds transformative — the current evidence has real, specific limits.",
     date: "2026-06-11",
     readTime: "5 min",
@@ -673,6 +723,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "colorectal-cancer-screening-age-45-guideline-change",
     title: "Why colorectal cancer screening now starts at 45, not 50",
+    seoTitle: "Why colorectal cancer screening now starts at 45",
     dek: "Major guideline bodies lowered the recommended starting age — the epidemiological trend behind that decision is worth understanding.",
     date: "2026-06-10",
     readTime: "4 min",
@@ -686,6 +737,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "lung-cancer-screening-low-dose-ct-eligibility",
     title: "Low-dose CT lung cancer screening: who's actually eligible and why the criteria are so specific",
+    seoTitle: "Low-dose CT lung cancer screening",
     dek: "Lung cancer screening isn't for everyone with any smoking history — the eligibility criteria reflect a specific risk-benefit calculation.",
     date: "2026-06-09",
     readTime: "4 min",
@@ -699,6 +751,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "breast-density-mammogram-supplemental-screening",
     title: "Dense breast tissue and mammography: why supplemental screening is now federally required disclosure",
+    seoTitle: "Dense breast tissue and mammography",
     dek: "Dense breast tissue both increases cancer risk and reduces mammogram sensitivity — a double effect that new federal notification rules are built around.",
     date: "2026-06-08",
     readTime: "4 min",
@@ -712,6 +765,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "skin-cancer-melanoma-early-detection-abcde-rule",
     title: "The ABCDE rule for melanoma self-checks — and its real limits",
+    seoTitle: "The ABCDE rule for melanoma self-checks",
     dek: "The mnemonic dermatologists teach for spotting suspicious moles is genuinely useful, with specific gaps worth knowing about.",
     date: "2026-06-07",
     readTime: "4 min",
@@ -727,6 +781,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "biological-age-testing-epigenetic-clocks-explained",
     title: "Epigenetic age tests: what a 'biological age' number actually measures",
+    seoTitle: "Epigenetic age tests",
     dek: "DNA methylation clocks promise a more accurate age than your birth certificate — the underlying science and its real limitations.",
     date: "2026-06-06",
     readTime: "5 min",
@@ -740,6 +795,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "nad-precursors-nmn-nr-supplements-evidence-review",
     title: "NAD+ precursor supplements (NMN, NR): what human trials actually show so far",
+    seoTitle: "NAD+ precursor supplements (NMN, NR)",
     dek: "The cellular-aging science behind NAD+ decline is well established. The human-trial evidence for supplementing it is considerably earlier stage.",
     date: "2026-06-05",
     readTime: "5 min",
@@ -753,6 +809,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "rapamycin-off-label-longevity-use-risks",
     title: "Off-label rapamycin for longevity: what the research supports and what the risks actually are",
+    seoTitle: "Off-label rapamycin for longevity",
     dek: "An immunosuppressant drug has become a fixture in longevity circles based on real animal data — the human safety picture for off-label longevity dosing is different from its approved use.",
     date: "2026-06-04",
     readTime: "5 min",
@@ -766,6 +823,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "cold-exposure-cryotherapy-recovery-evidence-review",
     title: "Cold exposure and cryotherapy: separating the recovery benefits from the overhyped claims",
+    seoTitle: "Cold exposure and cryotherapy",
     dek: "Ice baths and cryo chambers have real, specific evidence for some outcomes and notably weaker evidence for others often claimed.",
     date: "2026-06-03",
     readTime: "4 min",
@@ -779,6 +837,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "sauna-use-cardiovascular-mortality-finnish-cohort",
     title: "What the Finnish sauna cohort studies actually found about cardiovascular mortality",
+    seoTitle: "What the Finnish sauna cohort studies actually found",
     dek: "The frequently cited sauna-longevity research comes from a specific, well-designed cohort — worth understanding exactly what it showed.",
     date: "2026-06-02",
     readTime: "4 min",
@@ -794,6 +853,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "caregiver-burnout-warning-signs-when-to-get-help",
     title: "Caregiver burnout: the specific warning signs that mean it's time to get outside help",
+    seoTitle: "Caregiver burnout",
     dek: "Burnout in caregivers has documented physiological markers, not just emotional exhaustion — here's what the research says to watch for.",
     date: "2026-06-01",
     readTime: "5 min",
@@ -807,6 +867,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "fall-prevention-home-modifications-elderly-evidence",
     title: "Fall prevention at home: which modifications the research actually shows reduce falls",
+    seoTitle: "Fall prevention at home",
     dek: "Not every commonly recommended home safety change has equal evidence behind it — here's what's been formally studied.",
     date: "2026-05-31",
     readTime: "5 min",
@@ -820,6 +881,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "medication-management-elderly-polypharmacy-risks",
     title: "Polypharmacy in older adults: why the number of medications itself becomes a risk factor",
+    seoTitle: "Polypharmacy in older adults",
     dek: "Beyond individual drug side effects, taking multiple medications simultaneously creates interaction risks that grow non-linearly with each addition.",
     date: "2026-05-30",
     readTime: "5 min",
@@ -833,6 +895,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "advance-directives-healthcare-proxy-why-now",
     title: "Advance directives and healthcare proxies: why 'we'll deal with it later' is the wrong default",
+    seoTitle: "Advance directives and healthcare proxies",
     dek: "The legal and medical case for completing these documents well before they're urgently needed, not after a health crisis begins.",
     date: "2026-05-29",
     readTime: "4 min",
@@ -846,6 +909,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "respiratory-therapist-vs-pulmonologist-role-differences",
     title: "Respiratory therapist vs. pulmonologist: understanding who does what in respiratory care",
+    seoTitle: "Respiratory therapist vs. pulmonologist",
     dek: "Both are essential to managing chronic respiratory conditions, but their training, scope, and role in your care are genuinely different.",
     date: "2026-05-28",
     readTime: "4 min",
@@ -861,6 +925,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "ai-radiology-diagnostic-accuracy-second-reader",
     title: "AI as a 'second reader' in radiology: what the accuracy studies actually show",
+    seoTitle: "AI as a 'second reader' in radiology",
     dek: "AI-assisted image analysis is increasingly used alongside radiologists, not to replace them — the evidence explains why that specific model works.",
     date: "2026-05-27",
     readTime: "5 min",
@@ -874,6 +939,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "digital-therapeutics-fda-cleared-prescription-apps",
     title: "Digital therapeutics: what an FDA-cleared 'prescription app' actually means",
+    seoTitle: "Digital therapeutics",
     dek: "A growing category of software has cleared the same regulatory bar as medical devices — the clearance is more specific than 'FDA approved app.'",
     date: "2026-05-26",
     readTime: "4 min",
@@ -887,6 +953,7 @@ export const NEW_ARTICLES_2026_08: Article[] = [
   {
     slug: "genetic-testing-pharmacogenomics-medication-response",
     title: "Pharmacogenomic testing: how genetics can predict medication response and side effects",
+    seoTitle: "Pharmacogenomic testing",
     dek: "Certain gene variants measurably change how people metabolize common drugs — testing for them is moving from research into routine clinical use for specific medication classes.",
     date: "2026-05-25",
     readTime: "5 min",

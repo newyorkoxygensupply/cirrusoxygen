@@ -10,6 +10,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "orforglipron-oral-glp1-pill-approval",
     title: "Orforglipron: the first oral GLP-1 pill, and how it changes who can start treatment",
+    seoTitle: "Orforglipron",
     dek: "A once-daily pill with no food or water restrictions removes the injection barrier that's kept some patients from starting GLP-1 therapy at all.",
     date: "2026-06-15",
     readTime: "5 min",
@@ -27,6 +28,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "retatrutide-triple-agonist-trial-results",
     title: "Retatrutide: what the triple-agonist trial data actually shows",
+    seoTitle: "Retatrutide",
     dek: "A drug that activates three separate metabolic hormone receptors at once posted the largest weight-loss numbers yet reported in a Phase 3 obesity trial.",
     date: "2026-06-14",
     readTime: "5 min",
@@ -44,6 +46,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "glp1-bone-density-muscle-protection-strategy",
     title: "Protecting bone and muscle on a GLP-1: what the current protocols actually recommend",
+    seoTitle: "Protecting bone and muscle on a GLP-1",
     dek: "A meaningful share of the weight lost on GLP-1 drugs is lean tissue, not fat — and bone density can decline alongside it. The mitigation strategy is more specific than 'eat more protein.'",
     date: "2026-06-13",
     readTime: "5 min",
@@ -72,6 +75,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "glp1-insurance-coverage-battles-2026",
     title: "GLP-1 insurance coverage: why approval doesn't mean access",
+    seoTitle: "GLP-1 insurance coverage",
     dek: "FDA approval settles whether a drug can be prescribed. Whether insurance will actually pay for it is a separate, often much harder, battle for weight-loss indications specifically.",
     date: "2026-06-11",
     readTime: "5 min",
@@ -86,6 +90,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "bariatric-surgery-revision-glp1-era",
     title: "Bariatric surgery revision: why some patients need a second procedure in the GLP-1 era",
+    seoTitle: "Bariatric surgery revision",
     dek: "GLP-1 drugs haven't eliminated bariatric surgery — but they've changed how surgeons think about weight regain after a first procedure, and when a second one is actually warranted.",
     date: "2026-06-10",
     readTime: "4 min",
@@ -100,6 +105,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "glp1-eye-health-naion-risk-explained",
     title: "GLP-1 drugs and the rare eye condition in the safety headlines: what the actual risk is",
+    seoTitle: "GLP-1 drugs and the rare eye condition",
     dek: "A regulatory safety update flagged a rare optic nerve condition associated with semaglutide. The absolute risk is small, but understanding what the signal actually shows is worth doing directly.",
     date: "2026-06-09",
     readTime: "4 min",
@@ -117,6 +123,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "weight-neutral-health-approach-debate",
     title: "The weight-neutral health debate: what it argues, and where it runs into GLP-1-era evidence",
+    seoTitle: "The weight-neutral health debate",
     dek: "The weight-neutral movement argues health should be pursued independent of weight itself. Effective new weight-loss drugs have complicated, without resolving, that argument.",
     date: "2026-06-08",
     readTime: "5 min",
@@ -131,6 +138,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "glp1-adolescents-teens-treatment-guidelines",
     title: "GLP-1 drugs for teens: what the guidelines actually require before prescribing",
+    seoTitle: "GLP-1 drugs for teens",
     dek: "Two GLP-1 drugs are FDA-approved for adolescents with obesity starting at age 12. Usage is rising fast, and the guidelines around when it's appropriate are more specific than a BMI cutoff.",
     date: "2026-06-07",
     readTime: "5 min",
@@ -145,6 +153,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "generic-semaglutide-patent-cliff-2026",
     title: "Generic semaglutide: what the patent cliff actually means for price and access",
+    seoTitle: "Generic semaglutide",
     dek: "Patent expiration is starting to reshape the GLP-1 market, though the timeline and price impact are more complicated than a simple 'generics arrive, prices drop' story.",
     date: "2026-06-06",
     readTime: "4 min",
@@ -159,6 +168,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "glp1-fatty-liver-disease-mash-treatment",
     title: "GLP-1 drugs and fatty liver disease: the MASH trial data changing treatment",
+    seoTitle: "GLP-1 drugs and fatty liver disease",
     dek: "Metabolic dysfunction-associated steatohepatitis had no approved drug treatment until very recently. GLP-1-class medications are now part of that changing picture.",
     date: "2026-06-05",
     readTime: "5 min",
@@ -175,6 +185,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "smart-ring-market-generation-compared",
     title: "Smart rings: what actually differs between the current generation, beyond the price",
+    seoTitle: "Smart rings",
     dek: "Smart rings went from a niche curiosity to a genuine three-way market fight in 2026. The meaningful differences between competitors are more about software and subscriptions than hardware.",
     date: "2026-06-04",
     readTime: "5 min",
@@ -189,6 +200,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "at-home-lab-testing-kits-accuracy-limits",
     title: "At-home lab testing kits: what they can actually replace, and what they can't",
+    seoTitle: "At-home lab testing kits",
     dek: "Mail-in blood tests have expanded well beyond cholesterol panels. Understanding where they're reliable and where they fall short of a clinical lab matters before acting on the results.",
     date: "2026-06-03",
     readTime: "4 min",
@@ -203,6 +215,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "voice-biomarkers-disease-detection-research",
     title: "Voice biomarkers: what your voice can reveal about disease, according to early research",
+    seoTitle: "Voice biomarkers",
     dek: "Subtle changes in vocal patterns are being studied as an early signal for conditions from Parkinson's to depression to heart failure — a genuinely novel diagnostic frontier, still early.",
     date: "2026-06-02",
     readTime: "5 min",
@@ -217,6 +230,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "digital-twins-personalized-medicine-explained",
     title: "Digital twins in medicine: what a virtual model of your body can actually do today",
+    seoTitle: "Digital twins in medicine",
     dek: "Borrowed from industrial engineering, the digital twin concept aims to build a computational model of an individual patient for testing treatments virtually before trying them in reality.",
     date: "2026-06-01",
     readTime: "5 min",
@@ -231,6 +245,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "robotic-surgery-advances-what-changed",
     title: "Robotic surgery: what's actually new, beyond the marketing footage",
+    seoTitle: "Robotic surgery",
     dek: "Surgical robots have been in operating rooms for two decades. The more recent advances are less about the robot itself and more about what surgeons can now see and do with it.",
     date: "2026-06-01",
     readTime: "4 min",
@@ -245,6 +260,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "connected-medical-device-cybersecurity-risk",
     title: "Connected medical devices and cybersecurity: the risk that grows with every added feature",
+    seoTitle: "Connected medical devices and cybersecurity",
     dek: "Insulin pumps, pacemakers, and infusion systems increasingly connect wirelessly for remote monitoring and updates — convenience that comes with a genuine, actively managed security tradeoff.",
     date: "2026-05-31",
     readTime: "5 min",
@@ -259,6 +275,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "ai-mental-health-chatbots-regulation-limits",
     title: "AI mental health chatbots: what they can help with, and where regulation hasn't caught up",
+    seoTitle: "AI mental health chatbots",
     dek: "AI chatbots marketed for mental health support have grown rapidly. The regulatory framework distinguishing a wellness tool from a medical device hasn't kept pace with how they're actually being used.",
     date: "2026-05-30",
     readTime: "5 min",
@@ -273,6 +290,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "continuous-ketone-monitoring-explained",
     title: "Continuous ketone monitoring: a new wearable metric, and who actually needs it",
+    seoTitle: "Continuous ketone monitoring",
     dek: "Following continuous glucose monitors into the wearable space, continuous ketone sensors are emerging — with a much narrower, more specific set of legitimate use cases.",
     date: "2026-05-29",
     readTime: "4 min",
@@ -287,6 +305,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "whole-body-mri-screening-worth-it",
     title: "Whole-body MRI screening: what the scan finds, and what the evidence says about whether that helps",
+    seoTitle: "Whole-body MRI screening",
     dek: "Direct-to-consumer whole-body MRI has become a mainstream wellness purchase. The gap between what it detects and what's actually been shown to improve outcomes is the part worth understanding first.",
     date: "2026-05-28",
     readTime: "5 min",
@@ -301,6 +320,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "ai-drug-discovery-acceleration-explained",
     title: "AI drug discovery: how much has it actually sped up finding new medicines?",
+    seoTitle: "AI drug discovery",
     dek: "AI-designed drug candidates are now reaching human trials in a fraction of the traditional discovery timeline. The harder, slower part of drug development hasn't gotten faster at the same pace.",
     date: "2026-05-27",
     readTime: "5 min",
@@ -315,6 +335,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "telehealth-controlled-substance-prescribing-rules",
     title: "Telehealth prescribing rules for controlled substances: what changed, and what it means for ADHD and anxiety care",
+    seoTitle: "Telehealth prescribing rules for controlled substances",
     dek: "Pandemic-era flexibilities let telehealth providers prescribe controlled substances without an in-person visit first. The rules governing that flexibility have kept shifting since.",
     date: "2026-05-26",
     readTime: "5 min",
@@ -331,6 +352,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "colorectal-cancer-rising-young-adults-why",
     title: "Colorectal cancer in young adults: what's driving the rise, and what it means for screening",
+    seoTitle: "Colorectal cancer in young adults",
     dek: "Colorectal cancer is now the leading cause of cancer death for people under 50 — a genuinely new epidemiological pattern, and researchers still don't have a full explanation for why.",
     date: "2026-05-25",
     readTime: "5 min",
@@ -348,6 +370,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "alcohol-cancer-risk-warning-labels-2026",
     title: "Alcohol and cancer risk: the case behind the push for warning labels",
+    seoTitle: "Alcohol and cancer risk",
     dek: "Alcohol is now formally recognized as a leading preventable cause of cancer. The warning label on the bottle hasn't caught up to that finding — but the underlying evidence has been building for years.",
     date: "2026-05-24",
     readTime: "5 min",
@@ -362,6 +385,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "endometrial-cancer-rising-rates-symptoms",
     title: "Endometrial cancer rates are rising — the symptom most women don't report early enough",
+    seoTitle: "Endometrial cancer rates are rising",
     dek: "Unlike several other major cancers, endometrial cancer incidence has been climbing steadily, and the one symptom that should prompt fast evaluation is often dismissed as ordinary irregular bleeding.",
     date: "2026-05-23",
     readTime: "4 min",
@@ -376,6 +400,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "barretts-esophagus-esophageal-cancer-screening",
     title: "Barrett's esophagus: the precursor condition behind rising interest in esophageal cancer screening",
+    seoTitle: "Barrett's esophagus",
     dek: "Chronic acid reflux can gradually change the cells lining the esophagus into a precancerous state. Most people who have it don't know, because reflux itself rarely feels alarming.",
     date: "2026-05-22",
     readTime: "4 min",
@@ -390,6 +415,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "testicular-cancer-self-exam-awareness",
     title: "Testicular cancer: the self-exam most young men were never taught",
+    seoTitle: "Testicular cancer",
     dek: "It's the most common cancer in men between their teens and their thirties, and it's also one of the most treatable — when caught early, which self-awareness meaningfully improves.",
     date: "2026-05-21",
     readTime: "4 min",
@@ -404,6 +430,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "ovarian-cancer-early-detection-challenge",
     title: "Ovarian cancer and the early-detection problem screening hasn't solved yet",
+    seoTitle: "Ovarian cancer",
     dek: "Unlike breast, cervical, and colorectal cancer, ovarian cancer still has no validated general-population screening test — a genuine gap researchers have spent decades trying and largely failing to close.",
     date: "2026-05-20",
     readTime: "5 min",
@@ -418,6 +445,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "hpv-vaccination-catch-up-adults",
     title: "HPV vaccination isn't just for teenagers: the adult catch-up window most people don't know about",
+    seoTitle: "HPV vaccination isn't just for teenagers",
     dek: "HPV vaccine guidance extends well beyond the standard adolescent schedule, and a meaningful number of eligible adults have simply never been told they still qualify.",
     date: "2026-05-19",
     readTime: "4 min",
@@ -432,6 +460,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "oral-throat-cancer-hpv-related-screening",
     title: "HPV-related throat cancer: the screening conversation dentists are increasingly having",
+    seoTitle: "HPV-related throat cancer",
     dek: "A rising share of oropharyngeal cancer is now driven by HPV rather than tobacco and alcohol — a shift that's changed both the typical patient profile and where early detection conversations happen.",
     date: "2026-05-18",
     readTime: "4 min",
@@ -446,6 +475,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "hematuria-bladder-cancer-when-to-worry",
     title: "Blood in urine: when it's nothing, and when it's the bladder cancer symptom that gets dismissed",
+    seoTitle: "Blood in urine",
     dek: "Visible blood in the urine has a long list of usually-benign explanations. It's also the single most common early symptom of bladder cancer, and it's frequently written off before that's ruled out.",
     date: "2026-05-17",
     readTime: "4 min",
@@ -460,6 +490,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "obesity-related-cancer-risk-weight-loss",
     title: "Obesity-related cancers: what weight loss actually does to risk, according to the data",
+    seoTitle: "Obesity-related cancers",
     dek: "Obesity is now recognized as a cause of at least a dozen cancer types. The more recent, genuinely useful question is how much that risk actually changes once significant weight loss occurs.",
     date: "2026-05-16",
     readTime: "5 min",
@@ -474,6 +505,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "multi-gene-panel-testing-hereditary-cancer",
     title: "Multi-gene panel testing: what it catches beyond BRCA, and when it's worth requesting",
+    seoTitle: "Multi-gene panel testing",
     dek: "BRCA gets most of the public attention in hereditary cancer risk, but it's one of dozens of genes now included in a single panel test — several with cancer risks just as significant.",
     date: "2026-05-15",
     readTime: "5 min",
@@ -490,6 +522,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "tame-trial-metformin-longevity-update",
     title: "The TAME trial: where the actual evidence on metformin for longevity stands",
+    seoTitle: "The TAME trial",
     dek: "A cheap, decades-old diabetes drug has become one of the most discussed candidates in longevity medicine — largely on the strength of a landmark trial that's still ongoing.",
     date: "2026-05-14",
     readTime: "5 min",
@@ -504,6 +537,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "senolytics-clearing-zombie-cells-evidence",
     title: "Senolytics: what 'clearing zombie cells' actually means, and how far the human evidence has gotten",
+    seoTitle: "Senolytics",
     dek: "Senescent cells accumulate with age and contribute to inflammation and tissue dysfunction. Drugs designed to selectively clear them are a genuinely active research area — with results still mostly limited to specific conditions.",
     date: "2026-05-13",
     readTime: "5 min",
@@ -518,6 +552,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "spermidine-autophagy-supplement-evidence",
     title: "Spermidine: the autophagy supplement, and what's actually been tested in humans",
+    seoTitle: "Spermidine",
     dek: "A naturally occurring compound found in aged cheese and wheat germ has drawn longevity interest for its role in autophagy, the cellular cleanup process linked to healthy aging.",
     date: "2026-05-12",
     readTime: "4 min",
@@ -532,6 +567,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "brown-fat-activation-metabolic-health",
     title: "Brown fat: the metabolically active tissue researchers are trying to activate on purpose",
+    seoTitle: "Brown fat",
     dek: "Unlike the fat most people think about, brown adipose tissue burns energy to generate heat. Adults have less of it than infants, and a growing body of research is looking at how to change that.",
     date: "2026-05-11",
     readTime: "4 min",
@@ -546,6 +582,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "vagus-nerve-stimulation-longevity-claims",
     title: "Vagus nerve stimulation: separating the wellness claims from the clinical evidence",
+    seoTitle: "Vagus nerve stimulation",
     dek: "Vagus nerve stimulation has genuine, FDA-approved medical uses. The wellness-market claims attached to consumer devices and 'vagal toning' exercises go considerably further than that evidence supports.",
     date: "2026-05-10",
     readTime: "5 min",
@@ -560,6 +597,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "red-light-therapy-evidence-review",
     title: "Red light therapy: what it's actually been shown to do, and what's still unproven",
+    seoTitle: "Red light therapy",
     dek: "Red and near-infrared light devices have moved from dermatology clinics into home-use panels marketed for everything from skin aging to muscle recovery to mood. The evidence varies sharply by claim.",
     date: "2026-05-09",
     readTime: "5 min",
@@ -574,6 +612,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "testosterone-therapy-men-traverse-trial-safety",
     title: "Testosterone therapy for men: what the TRAVERSE trial actually settled about safety",
+    seoTitle: "Testosterone therapy for men",
     dek: "Prescribing rates for men's testosterone therapy have surged after a landmark safety trial addressed the cardiovascular concerns that had suppressed use for years.",
     date: "2026-05-08",
     readTime: "5 min",
@@ -588,6 +627,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "longevity-clinic-industry-what-to-know",
     title: "The longevity clinic industry: what you're actually paying for",
+    seoTitle: "The longevity clinic industry",
     dek: "Concierge longevity medicine has grown into a genuine industry, blending established preventive care with a meaningful amount of unproven or experimental interventions billed at premium prices.",
     date: "2026-05-07",
     readTime: "5 min",
@@ -602,6 +642,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "muscle-as-endocrine-organ-myokines",
     title: "Muscle as an endocrine organ: what myokines actually do for the rest of the body",
+    seoTitle: "Muscle as an endocrine organ",
     dek: "Skeletal muscle doesn't just move the body — when it contracts, it releases signaling molecules that communicate with organs throughout the body, a mechanism reshaping how exercise's benefits are understood.",
     date: "2026-05-06",
     readTime: "5 min",
@@ -616,6 +657,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "dhea-supplementation-evidence-review",
     title: "DHEA supplements: what the hormone actually does, and where the evidence runs out",
+    seoTitle: "DHEA supplements",
     dek: "DHEA production declines steadily with age, which has fueled decades of supplementation interest. The actual trial evidence for restoring it is considerably more limited than the supplement's popularity suggests.",
     date: "2026-05-05",
     readTime: "4 min",
@@ -630,6 +672,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "personalized-supplement-stacks-longevity-trend",
     title: "Personalized supplement stacks: what a longevity-focused regimen typically includes, and what's actually justified",
+    seoTitle: "Personalized supplement stacks",
     dek: "AI-driven personalized supplement services have turned the daily pill regimen into a subscription product. The evidence quality behind each individual ingredient varies enormously.",
     date: "2026-05-04",
     readTime: "5 min",
@@ -646,6 +689,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "sandwich-generation-financial-career-stress",
     title: "The sandwich generation: the financial and career cost of caring for both ends at once",
+    seoTitle: "The sandwich generation",
     dek: "Simultaneously raising children and caring for aging parents is common enough to have its own name. The financial and career toll is larger and more specific than 'busy.'",
     date: "2026-05-03",
     readTime: "5 min",
@@ -660,6 +704,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "ai-tools-for-caregivers-reminders-tracking",
     title: "AI tools for caregivers: what's actually useful, beyond the pitch",
+    seoTitle: "AI tools for caregivers",
     dek: "A wave of AI-powered apps now targets family caregivers directly — medication reminders, symptom tracking, care coordination. Some genuinely reduce the mental load; others add complexity without solving a real problem.",
     date: "2026-05-02",
     readTime: "5 min",
@@ -674,6 +719,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "long-distance-caregiving-strategies",
     title: "Long-distance caregiving: how to actually stay useful from another state",
+    seoTitle: "Long-distance caregiving",
     dek: "A meaningful share of family caregivers live an hour or more from the person they're caring for. The logistics of doing that well look nothing like local caregiving with a longer commute.",
     date: "2026-05-01",
     readTime: "5 min",
@@ -688,6 +734,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "dementia-caregiving-communication-techniques",
     title: "Dementia caregiving: the communication techniques that actually reduce conflict",
+    seoTitle: "Dementia caregiving",
     dek: "Correcting or reasoning with someone whose memory and cognition are impaired by dementia usually backfires. A specific, research-backed communication approach works better — and it isn't intuitive.",
     date: "2026-04-30",
     readTime: "5 min",
@@ -702,6 +749,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "anticipatory-grief-caregiving-explained",
     title: "Anticipatory grief: the grief that starts before the loss, and why caregivers need to name it",
+    seoTitle: "Anticipatory grief",
     dek: "Grief is usually understood as something that follows a death. For caregivers of someone with a progressive or terminal condition, a real form of grief often starts well before that.",
     date: "2026-04-29",
     readTime: "4 min",
@@ -716,6 +764,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "caregiver-workplace-leave-fmla-policy",
     title: "Caregiver leave at work: what FMLA actually covers, and where it falls short",
+    seoTitle: "Caregiver leave at work",
     dek: "The Family and Medical Leave Act is the main federal protection for working caregivers. Understanding its real scope — and its real gaps — matters before assuming it will cover a caregiving need.",
     date: "2026-04-28",
     readTime: "5 min",
@@ -730,6 +779,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "elder-financial-fraud-protection-guide",
     title: "Elder financial fraud: the protective steps that actually work, before something happens",
+    seoTitle: "Elder financial fraud",
     dek: "Financial exploitation of older adults is common and frequently underreported. The most effective protections are structural, put in place proactively — not reactive damage control after fraud occurs.",
     date: "2026-04-27",
     readTime: "5 min",
@@ -744,6 +794,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "home-care-worker-shortage-what-families-need",
     title: "The home care worker shortage: what it means for finding paid help",
+    seoTitle: "The home care worker shortage",
     dek: "Demand for professional in-home caregiving is rising as the population ages. The supply of paid caregivers hasn't kept pace, and families are feeling the gap directly in wait times and cost.",
     date: "2026-04-26",
     readTime: "4 min",
@@ -758,6 +809,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "caregiver-self-neglect-own-health-checkups",
     title: "Caregiver self-neglect: why caregivers' own health checkups are the ones that get skipped",
+    seoTitle: "Caregiver self-neglect",
     dek: "Caregivers are consistently more likely to delay their own medical care than the general population — a pattern with real health consequences that goes beyond general caregiver stress.",
     date: "2026-04-25",
     readTime: "4 min",
@@ -772,6 +824,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "preparing-for-a-loved-ones-icu-stay",
     title: "Preparing for a loved one's ICU stay: what actually helps in the first 48 hours",
+    seoTitle: "Preparing for a loved one's ICU stay",
     dek: "An unplanned ICU admission is one of the most disorienting experiences a family member can face. A few concrete steps in the first two days make a real difference in navigating it.",
     date: "2026-04-24",
     readTime: "5 min",
@@ -788,6 +841,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "hospital-price-transparency-enforcement-2026",
     title: "Hospital price transparency: what the 2026 enforcement crackdown actually requires",
+    seoTitle: "Hospital price transparency",
     dek: "Federal price transparency rules for hospitals have existed for years with limited enforcement. That changed meaningfully in 2026, with hundreds of hospitals cited for noncompliance.",
     date: "2026-04-23",
     readTime: "5 min",
@@ -805,6 +859,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "ai-scribes-clinical-documentation-adoption",
     title: "AI scribes: how fast ambient documentation is actually spreading through clinics",
+    seoTitle: "AI scribes",
     dek: "Voice-based AI tools that draft clinical notes during a patient visit have gone from pilot programs to near-majority physician adoption in a remarkably short window.",
     date: "2026-04-22",
     readTime: "5 min",
@@ -819,6 +874,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "rural-hospital-closures-access-crisis",
     title: "Rural hospital closures: what's driving them, and what it means for access",
+    seoTitle: "Rural hospital closures",
     dek: "Rural hospital closures have continued at a pace that's reshaped emergency and maternity care access across large parts of the country. The financial pressures driving it are structural, not incidental.",
     date: "2026-04-21",
     readTime: "5 min",
@@ -833,6 +889,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "direct-primary-care-membership-model-growth",
     title: "Direct primary care: why the membership model is growing faster than expected",
+    seoTitle: "Direct primary care",
     dek: "A flat monthly fee for essentially unlimited primary care access, with insurance kept entirely out of the relationship, has grown from a niche practice model into real national scale.",
     date: "2026-04-20",
     readTime: "5 min",
@@ -847,6 +904,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "nurse-staffing-ratio-legislation-explained",
     title: "Nurse staffing ratios: what mandated minimums actually change about care",
+    seoTitle: "Nurse staffing ratios",
     dek: "A small number of states mandate specific nurse-to-patient ratios by law. The evidence on what that mandate actually does to patient outcomes and hospital operations is more nuanced than either side of the debate suggests.",
     date: "2026-04-19",
     readTime: "5 min",
@@ -861,6 +919,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "no-surprises-act-billing-2026-update",
     title: "The No Surprises Act: what it actually stops, and where the loopholes remain",
+    seoTitle: "The No Surprises Act",
     dek: "Federal law now protects most patients from unexpected out-of-network bills after emergency care or care at an in-network facility. The protection has real, specific gaps worth knowing before you need them.",
     date: "2026-04-18",
     readTime: "5 min",
@@ -875,6 +934,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "healthcare-workforce-shortage-projections",
     title: "The healthcare workforce shortage: how large it actually is, by specialty",
+    seoTitle: "The healthcare workforce shortage",
     dek: "Workforce shortage warnings span nearly every part of healthcare. The actual severity, timeline, and cause vary considerably by specialty — a distinction that matters for what's likely to actually change access.",
     date: "2026-04-17",
     readTime: "5 min",
@@ -889,6 +949,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "drug-shortage-tracking-management-2026",
     title: "Drug shortages: why they keep happening, and how to actually track one that affects you",
+    seoTitle: "Drug shortages",
     dek: "National drug shortages have become a recurring, structural feature of the U.S. supply chain rather than an occasional disruption — with specific tools available for patients and pharmacies to track them.",
     date: "2026-04-16",
     readTime: "5 min",
@@ -903,6 +964,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "fda-breakthrough-device-designation-explained",
     title: "FDA breakthrough device designation: what the label actually means for a new medical device",
+    seoTitle: "FDA breakthrough device designation",
     dek: "The designation gets cited often in device marketing as a mark of credibility. What it actually certifies about safety and effectiveness is narrower than the marketing implies.",
     date: "2026-04-15",
     readTime: "4 min",
@@ -917,6 +979,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "prior-authorization-gold-card-reform-2026",
     title: "Prior authorization reform: what 'gold carding' actually changes for patients",
+    seoTitle: "Prior authorization reform",
     dek: "A growing number of states now let physicians with strong approval track records skip prior authorization on certain procedures entirely. The reform targets the process, not the requirement itself.",
     date: "2026-04-14",
     readTime: "5 min",
@@ -931,6 +994,7 @@ export const NEW_ARTICLES_2026_08E: Article[] = [
   {
     slug: "hospital-mergers-consolidation-care-quality",
     title: "Hospital consolidation: what mergers actually do to prices and care quality",
+    seoTitle: "Hospital consolidation",
     dek: "Hospital and health system mergers have continued at a steady pace for years. The research on what consolidation actually does to patients — rather than to hospital finances — sends a fairly consistent signal.",
     date: "2026-04-13",
     readTime: "5 min",
