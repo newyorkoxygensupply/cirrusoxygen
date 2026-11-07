@@ -1,7 +1,7 @@
 import { productHref, CATEGORY_META, PRODUCTS, RENTAL_PURCHASE_EQUIVALENT, type Product } from "./products";
 import { productDescription } from "./metadata";
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cirrus.example.com";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.cirrusoxygen.com";
 
 // ── Entity anchors ──────────────────────────────────────────────────
 // Stable @id fragments let Google consolidate every mention of the brand
