@@ -90,12 +90,21 @@ export function BrandHub({
                 <Link
                   key={p.slug}
                   href={productHref(p)}
-                  className="group block rounded-[2px] border border-border p-4 transition-colors hover:border-accent"
+                  className="group relative block rounded-[2px] border border-border p-4 transition-colors hover:border-accent"
                 >
+                  {p.badge && (
+                    <span
+                      className={`absolute top-3 right-3 z-10 rounded-full border px-2.5 py-0.5 font-mono text-[10px] tracking-[0.06em] uppercase ${
+                        p.badge === "Discontinued"
+                          ? "border-border-strong bg-surface text-muted"
+                          : "border-accent-warm/40 bg-accent-warm/10 text-accent-warm"
+                      }`}
+                    >
+                      {p.badge}
+                    </span>
+                  )}
                   <ProductThumb image={p.image} name={p.name} alt={productAltText(p)} className="h-36 w-full" />
-                  <p className="font-mono mt-4 text-[10px] tracking-[0.06em] text-muted-2 uppercase">
-                    {p.badge ?? brand}
-                  </p>
+                  <p className="font-mono mt-4 text-[10px] tracking-[0.06em] text-muted-2 uppercase">{brand}</p>
                   <h3 className="mt-1 text-[14px] font-semibold">{p.name}</h3>
                   {p.spec && <p className="mt-1 text-[12px] text-muted">{p.spec}</p>}
                   <p className="mt-2 text-[13px] font-medium tabular-nums">

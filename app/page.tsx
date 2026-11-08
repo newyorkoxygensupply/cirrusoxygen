@@ -278,7 +278,13 @@ export default function Home() {
                         )
                       )}
                       {p.badge && (
-                        <span className="absolute top-3 left-3 rounded-full bg-accent px-2.5 py-1 font-mono text-[10px] font-semibold tracking-[0.04em] text-accent-ink uppercase">
+                        <span
+                          className={`absolute top-3 left-3 rounded-full px-2.5 py-1 font-mono text-[10px] font-semibold tracking-[0.04em] uppercase ${
+                            p.badge === "Discontinued"
+                              ? "border border-border-strong bg-surface text-muted"
+                              : "bg-accent text-accent-ink"
+                          }`}
+                        >
                           {p.badge}
                         </span>
                       )}

@@ -145,7 +145,7 @@ export function ProductDetail({ product }: { product: Product }) {
               <span
                 className={`rounded-full border px-2.5 py-0.5 font-mono text-[10px] tracking-[0.06em] uppercase ${
                   product.badge === "Discontinued"
-                    ? "border-border-strong text-muted"
+                    ? "border-border-strong bg-surface text-muted"
                     : "border-accent-warm/40 bg-accent-warm/10 text-accent-warm"
                 }`}
               >

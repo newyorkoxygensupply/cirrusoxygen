@@ -26,7 +26,13 @@ function ProductGrid({ products }: { products: ReturnType<typeof productsByCateg
             className="group relative flex h-full cursor-pointer flex-col bg-surface p-7 transition-colors hover:bg-surface-2"
           >
             {p.badge && (
-              <span className="absolute top-4 right-4 rounded-full border border-accent-warm/40 bg-accent-warm/10 px-2.5 py-0.5 font-mono text-[10px] tracking-[0.06em] text-accent-warm uppercase">
+              <span
+                className={`absolute top-4 right-4 rounded-full border px-2.5 py-0.5 font-mono text-[10px] tracking-[0.06em] uppercase ${
+                  p.badge === "Discontinued"
+                    ? "border-border-strong bg-surface text-muted"
+                    : "border-accent-warm/40 bg-accent-warm/10 text-accent-warm"
+                }`}
+              >
                 {p.badge}
               </span>
             )}
