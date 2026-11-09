@@ -59,7 +59,7 @@ function QuotePanel({
                 </dt>
                 <dd className="font-mono text-[14px] tabular-nums">
                   {rate === null || total === null ? (
-                    <span className="text-muted-2">Call for pricing</span>
+                    <span className="text-muted-2">Call for Pricing</span>
                   ) : (
                     <>
                       <span className="text-muted-2">

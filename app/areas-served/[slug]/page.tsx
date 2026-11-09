@@ -328,7 +328,14 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
                   <p className="font-mono text-[10px] tracking-[0.06em] text-muted-2 uppercase">{p.brand}</p>
                   <h3 className="mt-1 text-[13.5px] font-semibold">{p.name}</h3>
                   <p className="mt-3 font-mono text-[14px] tabular-nums">
-                    {p.price === null ? "Call for Pricing" : formatPrice(p.price)}
+                    {p.price === null ? (
+                      "Call for Pricing"
+                    ) : (
+                      <>
+                        {p.compareAt && <span className="mr-1.5 text-[12px] text-muted-2 line-through">{formatPrice(p.compareAt)}</span>}
+                        <span className={p.compareAt ? "text-accent-warm" : ""}>{formatPrice(p.price)}</span>
+                      </>
+                    )}
                   </p>
                 </Link>
               ))}

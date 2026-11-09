@@ -110,7 +110,14 @@ export function ProductListing({
                     <h2 className="mt-1 text-[15px] font-semibold">{p.name}</h2>
                     {p.spec && <p className="mt-1.5 font-mono text-[12px] text-muted">{p.spec}</p>}
                     <p className="mt-4 font-mono text-[16px] tabular-nums">
-                      {p.price === null ? "Call for Pricing" : formatPrice(p.price)}
+                      {p.price === null ? (
+                        "Call for Pricing"
+                      ) : (
+                        <>
+                          {p.compareAt && <span className="mr-1.5 text-[13px] text-muted-2 line-through">{formatPrice(p.compareAt)}</span>}
+                          <span className={p.compareAt ? "text-accent-warm" : ""}>{formatPrice(p.price)}</span>
+                        </>
+                      )}
                     </p>
                   </Link>
                 </Tilt>

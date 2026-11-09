@@ -108,7 +108,14 @@ export function BrandHub({
                   <h3 className="mt-1 text-[14px] font-semibold">{p.name}</h3>
                   {p.spec && <p className="mt-1 text-[12px] text-muted">{p.spec}</p>}
                   <p className="mt-2 text-[13px] font-medium tabular-nums">
-                    {p.price !== null ? formatPrice(p.price) : "Call for pricing"}
+                    {p.price === null ? (
+                      "Call for Pricing"
+                    ) : (
+                      <>
+                        {p.compareAt && <span className="mr-1.5 text-[12px] font-normal text-muted-2 line-through">{formatPrice(p.compareAt)}</span>}
+                        <span className={p.compareAt ? "text-accent-warm" : ""}>{formatPrice(p.price)}</span>
+                      </>
+                    )}
                   </p>
                 </Link>
               ))}

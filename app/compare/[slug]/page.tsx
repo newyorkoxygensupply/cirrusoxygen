@@ -53,7 +53,11 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
   const rows: [string, string, string][] = [
     ["Brand", a.brand, b.brand],
-    ["Price", a.price !== null ? formatPrice(a.price) : "Call for Pricing", b.price !== null ? formatPrice(b.price) : "Call for Pricing"],
+    [
+      "Price",
+      a.price !== null ? `${formatPrice(a.price)}${a.compareAt ? ` (was ${formatPrice(a.compareAt)})` : ""}` : "Call for Pricing",
+      b.price !== null ? `${formatPrice(b.price)}${b.compareAt ? ` (was ${formatPrice(b.compareAt)})` : ""}` : "Call for Pricing",
+    ],
     ["Spec", a.spec ?? "—", b.spec ?? "—"],
     ["FAA Approved", a.faaApproved ? "Yes" : "—", b.faaApproved ? "Yes" : "—"],
     ["Condition", a.badge ?? "New", b.badge ?? "New"],

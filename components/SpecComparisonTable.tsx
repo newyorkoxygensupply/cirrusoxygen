@@ -33,7 +33,14 @@ export function SpecComparisonTable({ products }: { products: Product[] }) {
                       {p.name}
                     </Link>
                     <div className="mt-1 font-mono text-[12px] font-normal text-muted">
-                      {p.price === null ? "Call for Pricing" : formatPrice(p.price)}
+                      {p.price === null ? (
+                        "Call for Pricing"
+                      ) : (
+                        <>
+                          {p.compareAt && <span className="mr-1.5 text-muted-2 line-through">{formatPrice(p.compareAt)}</span>}
+                          <span className={p.compareAt ? "text-accent-warm" : ""}>{formatPrice(p.price)}</span>
+                        </>
+                      )}
                     </div>
                   </th>
                 ))}

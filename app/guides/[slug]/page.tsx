@@ -83,7 +83,14 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
                   <p className="mt-1 text-[13px] text-muted">{note}</p>
                 </div>
                 <p className="shrink-0 font-mono text-[15px] tabular-nums">
-                  {product.price === null ? "Call for Pricing" : formatPrice(product.price)}
+                  {product.price === null ? (
+                    "Call for Pricing"
+                  ) : (
+                    <>
+                      {product.compareAt && <span className="mr-1.5 text-[12px] text-muted-2 line-through">{formatPrice(product.compareAt)}</span>}
+                      <span className={product.compareAt ? "text-accent-warm" : ""}>{formatPrice(product.price)}</span>
+                    </>
+                  )}
                 </p>
               </Link>
             ) : null
