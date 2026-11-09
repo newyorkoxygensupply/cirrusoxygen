@@ -60,7 +60,11 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     ],
     ["Spec", a.spec ?? "—", b.spec ?? "—"],
     ["FAA Approved", a.faaApproved ? "Yes" : "—", b.faaApproved ? "Yes" : "—"],
-    ["Condition", a.badge ?? "New", b.badge ?? "New"],
+    [
+      "Condition",
+      a.badge === "Refurbished" ? "Refurbished" : "New",
+      b.badge === "Refurbished" ? "Refurbished" : "New",
+    ],
     ...(ratioA && ratioB
       ? ([["Weight per Hour of Runtime", `${ratioA.lbsPerHour} lbs/hr`, `${ratioB.lbsPerHour} lbs/hr`]] as [string, string, string][])
       : []),
