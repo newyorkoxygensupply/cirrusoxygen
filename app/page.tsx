@@ -761,11 +761,14 @@ export default function Home() {
       </section>
 
       {/* ── Lifestyle band ───────────────────────────────────────────── */}
+      {/* Fixed-dark gradient rather than theme tokens: the overlay text here
+          is hardcoded white, and --surface-2/--accent invert between light
+          and dark mode — deriving the background from them left this
+          unreadable (~1.7:1 contrast) in light mode. */}
       <section
         className="flex h-[380px] items-end"
         style={{
-          background:
-            "linear-gradient(135deg, color-mix(in srgb, var(--accent) 30%, var(--surface-2)), var(--surface-2) 70%)",
+          background: "linear-gradient(135deg, #1f4d3d, #12201a 70%)",
         }}
       >
         <div data-reveal className="p-10">
